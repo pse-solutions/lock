@@ -1,0 +1,451 @@
+/**
+ * 33Lock Custom Styles
+ * 
+ * A comprehensive stylesheet for the 33 Lock website templates
+ */
+
+/* ========== Base Styles ========== */
+:root {
+    /* Colors */
+    --color-teal: #00AEEF;
+    --color-teal-dark: #0095CC;
+    --color-teal-light: #7DDCFF;
+    --color-slate: #3D4A5D;
+    --color-slate-dark: #2C3545;
+    --color-slate-light: #8D99A8;
+    --color-silver: #B0BEC5;
+    --color-gold: #D4AF37;
+    --color-beige: #F5E8D7;
+    --color-charcoal: #333333;
+    --color-white: #FFFFFF;
+    
+    /* Fonts */
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    --font-heading-alt: 'Roboto Slab', serif;
+    --font-body-alt: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-secondary);
+    color: var(--color-charcoal);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    color: var(--color-slate);
+    line-height: 1.2;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* ========== Section Styles ========== */
+.section-title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    color: var(--color-slate);
+    border-bottom: 2px solid var(--color-teal);
+}
+
+.subsection-title {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--color-slate);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ========== Button Styles ========== */
+.btn-primary {
+    display: inline-block;
+    background-color: var(--color-teal);
+    color: white;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-teal-dark);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: transparent;
+    color: var(--color-teal);
+    font-family: var(--font-primary);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    border: 2px solid var(--color-teal);
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(0, 174, 239, 0.1);
+    transform: translateY(-2px);
+}
+
+.btn-secondary-outline {
+    display: inline-block;
+    background-color: transparent;
+    color: var(--color-slate);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    border: 1px solid var(--color-slate);
+    cursor: pointer;
+}
+
+.btn-secondary-outline:hover {
+    background-color: rgba(61, 74, 93, 0.05);
+}
+
+.btn-white {
+    display: inline-block;
+    background-color: white;
+    color: var(--color-slate);
+    font-family: var(--font-primary);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+}
+
+/* ========== Home Page Styles ========== */
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #3D4A5D, #4E5C70);
+}
+
+/* Benefit Cards */
+.benefit-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Solution Tabs */
+.tab-btn {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.tab-btn:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--color-teal);
+    transition: width 0.3s ease;
+}
+
+.tab-btn:hover:after,
+.tab-btn.active:after {
+    width: 100%;
+}
+
+.tab-content {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tab-content.active {
+    opacity: 1;
+}
+
+/* Product Cards */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Product Page Styles ========== */
+.feature-item {
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-3px);
+}
+
+.gallery-item img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.03);
+}
+
+.quote-icon {
+    position: relative;
+    z-index: 1;
+}
+
+/* ========== Style Guide Styles ========== */
+.swatch {
+    width: 100px;
+    height: 100px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.swatch span {
+    background-color: rgba(0,0,0,0.3);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.dark-text span {
+    color: #333;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.icon-example-container {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.photo-placeholder {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+/* ========== Utility Classes ========== */
+/* Font families */
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Colors */
+.text-teal-500 {
+    color: var(--color-teal);
+}
+
+.bg-teal-50 {
+    background-color: rgba(0, 174, 239, 0.1);
+}
+
+.text-slate-800 {
+    color: var(--color-slate);
+}
+
+.bg-slate-50 {
+    background-color: #F9FAFB;
+}
+
+.bg-slate-100 {
+    background-color: #F3F4F6;
+}
+
+.bg-slate-800 {
+    background-color: var(--color-slate);
+}
+
+.text-slate-100 {
+    color: #F3F4F6;
+}
+
+.text-slate-300 {
+    color: #CBD5E1;
+}
+
+.text-slate-500 {
+    color: #64748B;
+}
+
+.text-slate-600 {
+    color: #475569;
+}
+
+.text-slate-700 {
+    color: #334155;
+}
+
+.border-slate-200 {
+    border-color: #E2E8F0;
+}
+
+.border-slate-300 {
+    border-color: #CBD5E1;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .btn-primary, .btn-secondary, .btn-secondary-outline, .btn-white {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Icon sizing fixes - important overrides */
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set all icons to a reasonable size */
+.feature-icon svg,
+.icon-wrapper svg,
+.integration-icon svg,
+.application-icon svg,
+.testimonial-icon svg,
+.quote-icon svg {
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    min-height: 24px !important;
+    max-width: 24px !important;
+    max-height: 24px !important;
+}
+
+/* Slightly larger icons for benefit cards */
+.benefit-card .icon-wrapper svg {
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    min-height: 32px !important;
+    max-width: 32px !important;
+    max-height: 32px !important;
+}
+
+/* Style guide specific icon sizes */
+.icon-example-container svg {
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    min-height: 32px !important;
+    max-width: 32px !important;
+    max-height: 32px !important;
+}
+
+/* Ensure all elements with 'icon' in class name have reasonable dimensions */
+[class*="icon"] {
+    max-width: 64px;
+    max-height: 64px;
+    overflow: hidden;
+}
+
+/* Quote icon in testimonial section */
+.quote-icon-wrapper {
+    width: 48px !important;
+    height: 48px !important;
+    overflow: hidden !important;
+    display: inline-block !important;
+}
+.quote-icon-wrapper svg {
+    width: 48px !important;
+    height: 48px !important;
+    max-width: 48px !important;
+    max-height: 48px !important;
+}
+
+/* Extra protection against oversized icons */
+.h-10, .w-10 {
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+}
+
+.h-6, .w-6 {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+}
+
+.h-5, .w-5 {
+    height: 1.25rem !important;
+    width: 1.25rem !important;
+}
+
+/* SVGs in testimonials section */
+.testimonial svg {
+    width: 48px !important;
+    height: 48px !important;
+    max-width: 48px !important;
+    max-height: 48px !important;
+}
+
+/* Control w-12 and h-12 class which is used in the testimonial quotes */
+.w-12 {
+    width: 3rem !important;
+    max-width: 3rem !important;
+}
+.h-12 {
+    height: 3rem !important;
+    max-height: 3rem !important;
+}

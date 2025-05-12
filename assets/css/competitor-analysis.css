@@ -1,0 +1,247 @@
+/**
+ * Competitor Analysis Template Styles
+ */
+
+/* General Layout */
+.competitor-analysis {
+    --primary-color: #00AEEF; /* 33Lock teal */
+    --dark-color: #3D4A5D; /* Slate dark */
+    --light-color: #f8f9fa;
+    --border-color: #dee2e6;
+    --insight-bg: #f1f8fb;
+    --section-spacing: 4rem;
+    --border-radius: 0.5rem;
+    
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+.competitor-analysis .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Hero Section */
+.competitor-analysis .hero-section {
+    background: linear-gradient(135deg, var(--dark-color) 0%, #2c3e50 100%);
+    color: white;
+    padding: 4rem 0;
+    margin-bottom: var(--section-spacing);
+    position: relative;
+}
+
+.competitor-analysis .hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='rgba(255,255,255,0.05)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.competitor-analysis .hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.competitor-analysis .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.competitor-analysis .intro-text {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Competitor Sections */
+.competitor-analysis .competitor-section {
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.competitor-analysis .competitor-name {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+    display: inline-block;
+}
+
+.competitor-analysis .competitor-tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+/* Analysis Categories */
+.competitor-analysis .analysis-category {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.competitor-analysis .analysis-category:last-child {
+    border-bottom: none;
+}
+
+.competitor-analysis .analysis-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+    position: relative;
+    padding-left: 1rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+/* Category Images */
+.competitor-analysis .category-image {
+    margin-bottom: 1.5rem;
+}
+
+.competitor-analysis .category-image figure {
+    margin: 0;
+    padding: 0;
+}
+
+.competitor-analysis .category-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.competitor-analysis .category-image figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Category Content */
+.competitor-analysis .category-content {
+    margin-bottom: 1.5rem;
+}
+
+.competitor-analysis .category-content p {
+    margin-bottom: 1rem;
+}
+
+.competitor-analysis .category-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.competitor-analysis .category-content a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Insight Boxes */
+.competitor-analysis .insight-box {
+    background-color: var(--insight-bg);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+.competitor-analysis .insight-box h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.competitor-analysis .insight-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* Conclusion Section */
+.competitor-analysis .conclusion-section {
+    background-color: var(--light-color);
+    padding: 3rem 0;
+    border-radius: var(--border-radius);
+    margin-bottom: var(--section-spacing);
+}
+
+.competitor-analysis .conclusion-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--dark-color);
+}
+
+.competitor-analysis .conclusion-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.competitor-analysis .conclusion-content h3 {
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem;
+    color: var(--dark-color);
+}
+
+.competitor-analysis .conclusion-content ul {
+    padding-left: 1.5rem;
+}
+
+.competitor-analysis .conclusion-content li {
+    margin-bottom: 0.75rem;
+}
+
+.competitor-analysis .conclusion-content strong {
+    color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .competitor-analysis .hero-section {
+        padding: 3rem 0;
+    }
+    
+    .competitor-analysis .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .competitor-analysis .competitor-name {
+        font-size: 1.75rem;
+    }
+    
+    .competitor-analysis .analysis-category h3 {
+        font-size: 1.3rem;
+    }
+    
+    .competitor-analysis .conclusion-section h2 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .competitor-analysis .hero-section h1 {
+        font-size: 1.75rem;
+    }
+    
+    .competitor-analysis .intro-text {
+        font-size: 1rem;
+    }
+    
+    .competitor-analysis .competitor-name {
+        font-size: 1.5rem;
+    }
+    
+    .competitor-analysis .competitor-tagline {
+        font-size: 1.1rem;
+    }
+}

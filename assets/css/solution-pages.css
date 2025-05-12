@@ -1,0 +1,502 @@
+/**
+ * Solution Pages Styles for 33Lock
+ * Styles for Hotels & Resorts and Vacation Rentals solution pages
+ */
+
+:root {
+  --primary-color: #00AEEF; /* 33Lock teal */
+  --primary-dark: #0095CC;
+  --primary-light: #E6F7FD;
+  --dark-color: #3D4A5D; /* Slate dark */
+  --light-color: #F8F9FA;
+  --white: #FFFFFF;
+  --gray-100: #F8F9FA;
+  --gray-200: #E9ECEF;
+  --gray-300: #DEE2E6;
+  --gray-400: #CED4DA;
+  --gray-500: #ADB5BD;
+  --gray-600: #6C757D;
+  --gray-700: #495057;
+  --gray-800: #343A40;
+  --gray-900: #212529;
+}
+
+/* General Styles */
+.solution-page {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--gray-800);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--dark-color);
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: 2px solid var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  transform: translateY(-2px);
+  color: var(--white);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--dark-color);
+  border: 2px solid var(--dark-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--gray-100);
+  transform: translateY(-2px);
+  color: var(--dark-color);
+}
+
+/* Hero Section */
+.solution-hero {
+  padding: 80px 0;
+  background-color: var(--light-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.solution-hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  flex: 0 0 55%;
+  padding-right: 40px;
+}
+
+.hero-image {
+  flex: 0 0 45%;
+  text-align: right;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hero-headline {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+  line-height: 1.2;
+}
+
+.hero-subcopy {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  color: var(--gray-700);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+/* Benefits Grid Sections */
+.why-switch-section,
+.pain-points-section {
+  padding: 80px 0;
+  background-color: var(--white);
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.benefit-item {
+  padding: 30px;
+  background-color: var(--gray-100);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.benefit-icon .icon {
+  width: 100%;
+  height: 100%;
+}
+
+.benefit-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Feature-Benefit Table */
+.feature-benefit-section {
+  padding: 80px 0;
+  background-color: var(--gray-100);
+}
+
+.feature-table {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.feature-table-header {
+  display: flex;
+  background-color: var(--dark-color);
+  color: var(--white);
+  font-weight: 600;
+}
+
+.feature-table-row {
+  display: flex;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.feature-table-row:last-child {
+  border-bottom: none;
+}
+
+.feature-column,
+.benefit-column {
+  padding: 20px;
+}
+
+.feature-column {
+  flex: 0 0 30%;
+  font-weight: 600;
+}
+
+.benefit-column {
+  flex: 0 0 70%;
+}
+
+/* Integrations Strip */
+.integrations-section {
+  padding: 50px 0;
+  background-color: var(--white);
+  border-top: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.integration-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.integration-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--gray-700);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.logo-item {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gray-600);
+}
+
+/* Case Study Section */
+.case-study-section {
+  padding: 80px 0;
+  background-color: var(--primary-light);
+}
+
+.case-study-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote blockquote {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.quote cite {
+  font-size: 1.1rem;
+  color: var(--gray-700);
+  font-style: normal;
+}
+
+.case-study-link {
+  margin-top: 2rem;
+}
+
+.link-arrow {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-arrow:after {
+  content: '→';
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.link-arrow:hover:after {
+  transform: translateX(5px);
+}
+
+/* Implementation Steps Section */
+.implementation-section,
+.how-it-works-section {
+  padding: 80px 0;
+  background-color: var(--white);
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.step-item {
+  padding: 30px;
+  background-color: var(--gray-100);
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.step-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 50%;
+  font-weight: 600;
+  margin: 0 auto 20px;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--dark-color);
+}
+
+.step-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--gray-700);
+}
+
+/* ROI Section */
+.roi-section {
+  padding: 50px 0;
+  background-color: var(--gray-100);
+}
+
+.roi-note {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.roi-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--dark-color);
+}
+
+.roi-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--gray-700);
+}
+
+/* CTA Banner */
+.cta-banner {
+  padding: 80px 0;
+  background-color: var(--dark-color);
+  color: var(--white);
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .solution-hero .container {
+    flex-direction: column;
+  }
+  
+  .hero-content {
+    flex: 0 0 100%;
+    padding-right: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .hero-image {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  
+  .hero-headline {
+    font-size: 2.2rem;
+  }
+  
+  .hero-buttons {
+    justify-content: center;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .feature-table {
+    overflow-x: auto;
+  }
+  
+  .feature-table-header,
+  .feature-table-row {
+    display: flex;
+    min-width: 600px;
+  }
+  
+  .feature-column {
+    flex: 0 0 30%;
+  }
+  
+  .benefit-column {
+    flex: 0 0 70%;
+  }
+  
+  .quote blockquote {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .steps-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .hero-headline {
+    font-size: 1.8rem;
+  }
+  
+  .hero-subcopy {
+    font-size: 1.1rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+}

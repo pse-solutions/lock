@@ -1,0 +1,457 @@
+[
+    {
+        "key": "group_solutions_page",
+        "title": "Solutions Page Settings",
+        "fields": [
+            {
+                "key": "field_solutions_quick_links",
+                "label": "Quick Navigation Links",
+                "name": "solutions_quick_links",
+                "type": "repeater",
+                "instructions": "Add links for the quick navigation menu",
+                "required": 1,
+                "layout": "table",
+                "min": 1,
+                "button_label": "Add Navigation Link",
+                "sub_fields": [
+                    {
+                        "key": "field_solutions_link_text",
+                        "label": "Link Text",
+                        "name": "link_text",
+                        "type": "text",
+                        "required": 1
+                    },
+                    {
+                        "key": "field_solutions_link_anchor",
+                        "label": "Section ID (without #)",
+                        "name": "link_anchor",
+                        "type": "text",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "key": "field_solutions_hero",
+                "label": "Hero Section",
+                "name": "solutions_hero",
+                "type": "group",
+                "instructions": "",
+                "required": 1,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_solutions_hero_title",
+                        "label": "Hero Title",
+                        "name": "hero_title",
+                        "type": "text",
+                        "required": 1
+                    },
+                    {
+                        "key": "field_solutions_hero_intro",
+                        "label": "Hero Introduction",
+                        "name": "hero_intro",
+                        "type": "textarea",
+                        "required": 1,
+                        "rows": 3
+                    },
+                    {
+                        "key": "field_solutions_hero_background",
+                        "label": "Hero Background Image",
+                        "name": "hero_background",
+                        "type": "image",
+                        "required": 1,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "instructions": "Use a high-resolution image (2000px × 1000px minimum) with good contrast for text overlay. The image should represent multiple scenarios of lock use."
+                    },
+                    {
+                        "key": "field_solutions_hero_ctas",
+                        "label": "Call to Action Buttons",
+                        "name": "hero_ctas",
+                        "type": "repeater",
+                        "required": 0,
+                        "min": 0,
+                        "max": 2,
+                        "layout": "table",
+                        "button_label": "Add Button",
+                        "sub_fields": [
+                            {
+                                "key": "field_solutions_cta_text",
+                                "label": "Button Text",
+                                "name": "cta_text",
+                                "type": "text",
+                                "required": 1
+                            },
+                            {
+                                "key": "field_solutions_cta_link",
+                                "label": "Button Link",
+                                "name": "cta_link",
+                                "type": "url",
+                                "required": 1
+                            },
+                            {
+                                "key": "field_solutions_cta_type",
+                                "label": "Button Type",
+                                "name": "cta_type",
+                                "type": "select",
+                                "required": 1,
+                                "choices": {
+                                    "primary": "Primary (Blue)",
+                                    "secondary": "Secondary (Outlined)"
+                                },
+                                "default_value": "primary"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_solutions_sections",
+                "label": "Solution Sections",
+                "name": "solutions_sections",
+                "type": "repeater",
+                "instructions": "Add each industry solution section",
+                "required": 1,
+                "min": 1,
+                "layout": "block",
+                "button_label": "Add Solution Section",
+                "sub_fields": [
+                    {
+                        "key": "field_solution_section_id",
+                        "label": "Section ID",
+                        "name": "section_id",
+                        "type": "text",
+                        "required": 1,
+                        "instructions": "Used for navigation links, no spaces (e.g., hospitality, vacation-rentals)"
+                    },
+                    {
+                        "key": "field_solution_title",
+                        "label": "Section Title",
+                        "name": "title",
+                        "type": "text",
+                        "required": 1
+                    },
+                    {
+                        "key": "field_solution_subtitle",
+                        "label": "Section Subtitle",
+                        "name": "subtitle",
+                        "type": "text",
+                        "required": 1
+                    },
+                    {
+                        "key": "field_solution_description",
+                        "label": "Section Description",
+                        "name": "description",
+                        "type": "textarea",
+                        "required": 1,
+                        "rows": 3
+                    },
+                    {
+                        "key": "field_solution_image",
+                        "label": "Section Image",
+                        "name": "image",
+                        "type": "image",
+                        "required": 1,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "instructions": "Use a high-quality image (1200px × 800px) showing the solution in action. Ensure good lighting and clear visibility of the product in the environment."
+                    },
+                    {
+                        "key": "field_solution_features",
+                        "label": "Features and Benefits",
+                        "name": "features",
+                        "type": "repeater",
+                        "required": 1,
+                        "min": 2,
+                        "max": 6,
+                        "layout": "table",
+                        "button_label": "Add Feature",
+                        "sub_fields": [
+                            {
+                                "key": "field_feature_name",
+                                "label": "Feature",
+                                "name": "feature",
+                                "type": "text",
+                                "required": 1
+                            },
+                            {
+                                "key": "field_feature_benefit",
+                                "label": "Benefit",
+                                "name": "benefit",
+                                "type": "text",
+                                "required": 1
+                            },
+                            {
+                                "key": "field_feature_icon",
+                                "label": "Feature Icon",
+                                "name": "icon",
+                                "type": "image",
+                                "required": 0,
+                                "return_format": "array",
+                                "preview_size": "thumbnail",
+                                "instructions": "Optional icon (SVG preferred, 64px × 64px) representing this feature."
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_solution_case_study",
+                        "label": "Case Study or ROI",
+                        "name": "case_study",
+                        "type": "group",
+                        "required": 0,
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_case_study_type",
+                                "label": "Content Type",
+                                "name": "type",
+                                "type": "select",
+                                "required": 1,
+                                "choices": {
+                                    "quote": "Customer Quote",
+                                    "roi": "ROI Snapshot",
+                                    "security": "Security Note"
+                                },
+                                "default_value": "quote"
+                            },
+                            {
+                                "key": "field_case_study_title",
+                                "label": "Title",
+                                "name": "title",
+                                "type": "text",
+                                "required": 0,
+                                "conditional_logic": [
+                                    {
+                                        "field": "field_case_study_type",
+                                        "operator": "!=",
+                                        "value": "quote"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_case_study_content",
+                                "label": "Content",
+                                "name": "content",
+                                "type": "textarea",
+                                "required": 1,
+                                "rows": 3
+                            },
+                            {
+                                "key": "field_case_study_citation",
+                                "label": "Citation",
+                                "name": "citation",
+                                "type": "text",
+                                "required": 0,
+                                "conditional_logic": [
+                                    {
+                                        "field": "field_case_study_type",
+                                        "operator": "==",
+                                        "value": "quote"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_case_study_image",
+                                "label": "Customer or Property Image",
+                                "name": "image",
+                                "type": "image",
+                                "required": 0,
+                                "return_format": "array",
+                                "preview_size": "thumbnail",
+                                "instructions": "Optional image (600px × 400px) of customer, property, or visual representation of the case study."
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_solution_integrations",
+                        "label": "Integrations",
+                        "name": "integrations",
+                        "type": "repeater",
+                        "required": 0,
+                        "min": 0,
+                        "layout": "table",
+                        "button_label": "Add Integration",
+                        "sub_fields": [
+                            {
+                                "key": "field_integration_name",
+                                "label": "Integration Name",
+                                "name": "name",
+                                "type": "text",
+                                "required": 1
+                            },
+                            {
+                                "key": "field_integration_logo",
+                                "label": "Integration Logo",
+                                "name": "logo",
+                                "type": "image",
+                                "required": 0,
+                                "return_format": "array",
+                                "preview_size": "thumbnail",
+                                "instructions": "Partner logo (ideally SVG, or 200px × 80px PNG with transparent background)"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_solution_cta",
+                        "label": "Section CTA",
+                        "name": "cta",
+                        "type": "group",
+                        "required": 0,
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_solution_cta_text",
+                                "label": "Button Text",
+                                "name": "text",
+                                "type": "text",
+                                "required": 1
+                            },
+                            {
+                                "key": "field_solution_cta_link",
+                                "label": "Button Link",
+                                "name": "link",
+                                "type": "url",
+                                "required": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_solution_background_color",
+                        "label": "Background Color",
+                        "name": "background_color",
+                        "type": "color_picker",
+                        "required": 0,
+                        "default_value": "#ffffff",
+                        "instructions": "Optional background color for this section. Use light colors to maintain readability."
+                    }
+                ]
+            },
+            {
+                "key": "field_solutions_implementation",
+                "label": "Implementation Section",
+                "name": "solutions_implementation",
+                "type": "group",
+                "instructions": "",
+                "required": 1,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_implementation_title",
+                        "label": "Section Title",
+                        "name": "title",
+                        "type": "text",
+                        "required": 1
+                    },
+                    {
+                        "key": "field_implementation_steps",
+                        "label": "Implementation Steps",
+                        "name": "steps",
+                        "type": "repeater",
+                        "required": 1,
+                        "min": 3,
+                        "max": 6,
+                        "layout": "table",
+                        "button_label": "Add Step",
+                        "sub_fields": [
+                            {
+                                "key": "field_step_title",
+                                "label": "Step Title",
+                                "name": "title",
+                                "type": "text",
+                                "required": 1
+                            },
+                            {
+                                "key": "field_step_description",
+                                "label": "Step Description",
+                                "name": "description",
+                                "type": "text",
+                                "required": 1
+                            },
+                            {
+                                "key": "field_step_icon",
+                                "label": "Step Icon",
+                                "name": "icon",
+                                "type": "image",
+                                "required": 0,
+                                "return_format": "array",
+                                "preview_size": "thumbnail",
+                                "instructions": "Icon for this step (SVG preferred, 80px × 80px)"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_implementation_image",
+                        "label": "Implementation Image",
+                        "name": "image",
+                        "type": "image",
+                        "required": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "instructions": "Optional visual representation of the implementation process (1200px × 500px)"
+                    }
+                ]
+            },
+            {
+                "key": "field_solutions_final_cta",
+                "label": "Final CTA Section",
+                "name": "solutions_final_cta",
+                "type": "group",
+                "instructions": "",
+                "required": 1,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_final_cta_title",
+                        "label": "CTA Title",
+                        "name": "title",
+                        "type": "text",
+                        "required": 1
+                    },
+                    {
+                        "key": "field_final_cta_button_text",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "required": 1
+                    },
+                    {
+                        "key": "field_final_cta_button_link",
+                        "label": "Button Link",
+                        "name": "button_link",
+                        "type": "url",
+                        "required": 1
+                    },
+                    {
+                        "key": "field_final_cta_background",
+                        "label": "Background Image",
+                        "name": "background",
+                        "type": "image",
+                        "required": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "instructions": "Full-width background image (2000px × 800px) with dark overlay for contrasting text"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "page-templates/solutions-template.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": true,
+        "description": ""
+    }
+]

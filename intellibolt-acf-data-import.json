@@ -1,0 +1,395 @@
+{
+    "key": "group_intelli_bolt_template",
+    "title": "IntelliBolt Product Template",
+    "fields": [
+        {
+            "key": "field_bolt_hero_section",
+            "label": "Hero Section",
+            "name": "bolt_hero_section",
+            "type": "group",
+            "value": {
+                "product_title": "Meet IntelliBolt – seamless security for specialty doors",
+                "product_intro": "Perfect for sliding doors, gates, and cabinets, IntelliBolt installs in minutes with no invasive drilling. The clean, minimal design offers push-button or touchscreen entry with Wi-Fi connectivity for remote management—ensuring security for every application beyond standard doors.",
+                "hero_image": "",
+                "specs_button_text": "View Specs",
+                "quote_button_text": "Get a Quote",
+                "quote_button_url": "#quote"
+            }
+        },
+        {
+            "key": "field_bolt_benefits_section",
+            "label": "Benefits Section",
+            "name": "bolt_benefits_section",
+            "type": "group",
+            "value": {
+                "benefits_title": "Why properties choose IntelliBolt",
+                "benefits": [
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"></circle><polyline points=\"21 15 16 10 5 21\"></polyline></svg>",
+                        "benefit_title": "Universal installation",
+                        "benefit_description": "Surface-mount design works with sliding doors, gates, cabinets and other applications where traditional locks won't fit."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4\"></path></svg>",
+                        "benefit_title": "Non-invasive mounting",
+                        "benefit_description": "Installation requires no drilling or permanent modification—ideal for historic properties or temporary deployments."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"></rect><rect x=\"2\" y=\"14\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"></rect><line x1=\"6\" y1=\"6\" x2=\"6.01\" y2=\"6\"></line><line x1=\"6\" y1=\"18\" x2=\"6.01\" y2=\"18\"></line></svg>",
+                        "benefit_title": "Same software platform",
+                        "benefit_description": "Integrates with our entire smart-lock ecosystem—manage all your property's access points from one dashboard."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path></svg>",
+                        "benefit_title": "Targeted access control",
+                        "benefit_description": "Secure specialized areas like pools, storage rooms, and amenity spaces with time-bound codes and detailed access logs."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18\"></path></svg>",
+                        "benefit_title": "Choice of interface",
+                        "benefit_description": "Available with tactile push-button or capacitive touchscreen keypad to match your aesthetic and usage preferences."
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_bolt_specs_section",
+            "label": "Specifications Section",
+            "name": "bolt_specs_section",
+            "type": "group",
+            "value": {
+                "specs_title": "At-a-Glance Specifications",
+                "specs": [
+                    {
+                        "spec_name": "Dimensions",
+                        "spec_value": "156 × 68 × 25 mm (main unit)"
+                    },
+                    {
+                        "spec_name": "Materials",
+                        "spec_value": "Zinc alloy body, ABS interface"
+                    },
+                    {
+                        "spec_name": "Power",
+                        "spec_value": "4 × AA batteries • USB-C backup"
+                    },
+                    {
+                        "spec_name": "Mounting",
+                        "spec_value": "3M VHB adhesive or screw mount"
+                    },
+                    {
+                        "spec_name": "Operating Temp",
+                        "spec_value": "–20 °C to 55 °C"
+                    },
+                    {
+                        "spec_name": "Humidity",
+                        "spec_value": "10 – 90 % RH (non-condensing)"
+                    },
+                    {
+                        "spec_name": "Pulling Force",
+                        "spec_value": "Up to 300 kg"
+                    },
+                    {
+                        "spec_name": "Connectivity",
+                        "spec_value": "Bluetooth 5.0, Wi-Fi 2.4 GHz"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_bolt_features_section",
+            "label": "Features Section",
+            "name": "bolt_features_section",
+            "type": "group",
+            "value": {
+                "features_title": "Feature Checklist",
+                "features": [
+                    {
+                        "feature_text": "Online & offline operation"
+                    },
+                    {
+                        "feature_text": "Touchscreen or push-button keypad options"
+                    },
+                    {
+                        "feature_text": "Custom 4- to 9-digit PINs"
+                    },
+                    {
+                        "feature_text": "Auto re-lock & passage mode"
+                    },
+                    {
+                        "feature_text": "Low-battery & tamper alerts"
+                    },
+                    {
+                        "feature_text": "Exportable access logs"
+                    },
+                    {
+                        "feature_text": "Remote access management"
+                    },
+                    {
+                        "feature_text": "Emergency power via USB-C"
+                    },
+                    {
+                        "feature_text": "Active/inactive status monitoring"
+                    },
+                    {
+                        "feature_text": "RFID card/fob compatibility"
+                    },
+                    {
+                        "feature_text": "API for third-party integration"
+                    },
+                    {
+                        "feature_text": "Firmware updates via Bluetooth"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_bolt_compatibility_section",
+            "label": "Compatibility Section",
+            "name": "bolt_compatibility_section",
+            "type": "group",
+            "value": {
+                "compatibility_title": "Door Compatibility Guide",
+                "standard_doors": {
+                    "standard_title": "Ideal for Specialty Applications",
+                    "standard_intro": "IntelliBolt is designed for specialty door types and access points where traditional locks won't work:",
+                    "standard_items": [
+                        {
+                            "item_text": "Sliding doors (glass, wood, or metal)"
+                        },
+                        {
+                            "item_text": "Gates and fence access points"
+                        },
+                        {
+                            "item_text": "Cabinets and storage units"
+                        },
+                        {
+                            "item_text": "Hidden or flush-mount doors"
+                        },
+                        {
+                            "item_text": "Pocket doors and barn-style sliders"
+                        }
+                    ],
+                    "standard_conclusion": "IntelliBolt's versatile mounting options and powerful electromagnetic design secures almost any door type with minimal modification."
+                },
+                "specialty_doors": {
+                    "specialty_title": "Advanced Applications",
+                    "specialty_intro": "IntelliBolt can also handle these more specialized use cases:",
+                    "specialty_items": [
+                        {
+                            "item_text": "Common area access points (gyms, pools, etc.)"
+                        },
+                        {
+                            "item_text": "Outdoor gate access (with weather enclosure)"
+                        },
+                        {
+                            "item_text": "Emergency access restriction"
+                        },
+                        {
+                            "item_text": "Temporary installations (non-destructive mounting)"
+                        },
+                        {
+                            "item_text": "Historic properties with restrictions on door modification"
+                        }
+                    ],
+                    "specialty_tip": "For outdoor installations, we recommend our weather enclosure accessory to ensure full protection against the elements."
+                },
+                "not_compatible": {
+                    "not_compatible_title": "Not Recommended For",
+                    "not_compatible_intro": "The IntelliBolt is not ideal for these applications:",
+                    "not_compatible_items": [
+                        {
+                            "item_text": "Primary front entrance doors (use IntelliMortise instead)"
+                        },
+                        {
+                            "item_text": "Fire-rated doors requiring certification"
+                        },
+                        {
+                            "item_text": "Extreme weather conditions without enclosure"
+                        },
+                        {
+                            "item_text": "Doors with standard cylindrical or mortise preparations"
+                        },
+                        {
+                            "item_text": "Applications requiring ADA-compliant hardware"
+                        }
+                    ],
+                    "not_compatible_tip": "For primary entrance doors with standard lock preparations, consider our IntelliMortise or IntelliLever solutions which are designed specifically for those applications."
+                }
+            }
+        },
+        {
+            "key": "field_bolt_installation_section",
+            "label": "Installation Section",
+            "name": "bolt_installation_section",
+            "type": "group",
+            "value": {
+                "installation_title": "5-Minute Installation Process",
+                "installation_steps": [
+                    {
+                        "step_number": "1",
+                        "step_title": "Surface Preparation",
+                        "step_description": "Clean both mounting surfaces (door and frame) with the included alcohol wipe. Ensure surfaces are completely dry before proceeding.",
+                        "step_tip": "The surfaces must be clean of dust, oil and debris for optimal adhesion."
+                    },
+                    {
+                        "step_number": "2",
+                        "step_title": "Position the Lock Unit",
+                        "step_description": "With the door closed, mark the desired position for the lock body on the door and the strike plate on the frame. Ensure they align perfectly when the door is closed.",
+                        "step_tip": ""
+                    },
+                    {
+                        "step_number": "3",
+                        "step_title": "Secure the Lock Body",
+                        "step_description": "Remove the backing from the 3M VHB adhesive strips on the lock body. Press firmly against the door surface for 30 seconds. For additional security, use the included screws if mounting to wood or metal.",
+                        "step_tip": "For maximum bond strength, install at temperatures above 65°F (18°C). Full bond strength develops over 72 hours."
+                    },
+                    {
+                        "step_number": "4",
+                        "step_title": "Attach the Strike Plate",
+                        "step_description": "Remove the backing from the adhesive on the strike plate. With the door closed, press firmly against the frame surface for 30 seconds, ensuring perfect alignment with the lock body.",
+                        "step_tip": ""
+                    },
+                    {
+                        "step_number": "5",
+                        "step_title": "Complete Setup & Test",
+                        "step_description": "Install batteries, test mechanical operation, and configure using the 33Lock mobile app. Verify proper alignment and locking function multiple times before finalizing installation.",
+                        "step_tip": "For sliding doors, ensure the magnet in the lock body makes full contact with the strike plate when the door is closed."
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_bolt_testimonial_section",
+            "label": "Testimonial Section",
+            "name": "bolt_testimonial_section",
+            "type": "group",
+            "value": {
+                "testimonial_title": "What Our Customers Say",
+                "testimonials": [
+                    {
+                        "testimonial_text": "We needed secure access for our property's amenity spaces—pool area, gym, and community room—but didn't want to replace existing hardware. IntelliBolt was perfect; we mounted them in minutes with no drilling, and now can monitor and control access to all these areas from one dashboard.",
+                        "testimonial_name": "Thomas Rivera",
+                        "testimonial_position": "Facilities Manager, Parkside Apartments",
+                        "testimonial_avatar": ""
+                    },
+                    {
+                        "testimonial_text": "The sliding glass doors in our oceanfront suites were a security challenge until we found IntelliBolt. The sleek design maintains our aesthetic, and guests appreciate the added security. Installation couldn't have been simpler—we secured 24 doors in a single day.",
+                        "testimonial_name": "Amanda Chen",
+                        "testimonial_position": "Director of Operations, Coastal Bay Resort",
+                        "testimonial_avatar": ""
+                    },
+                    {
+                        "testimonial_text": "Our historic building has strict regulations about modifying doors, so traditional smart locks weren't an option. IntelliBolt's non-invasive installation was perfect for our situation, giving us modern access control while preserving our property's character.",
+                        "testimonial_name": "Robert Blackwell",
+                        "testimonial_position": "Owner, Heritage Inn B&B",
+                        "testimonial_avatar": ""
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_bolt_faq_section",
+            "label": "FAQ Section",
+            "name": "bolt_faq_section",
+            "type": "group",
+            "value": {
+                "faq_title": "Frequently Asked Questions",
+                "faqs": [
+                    {
+                        "question": "How strong is the magnetic connection?",
+                        "answer": "<p>The IntelliBolt's electromagnetic locking mechanism provides up to 300kg of holding force when properly installed. This is sufficient for most sliding doors, gates, and cabinets. The actual strength depends on proper alignment and full contact between the lock body and strike plate. For high-security applications, we recommend the optional screw mounting in addition to the adhesive.</p>"
+                    },
+                    {
+                        "question": "Will the adhesive damage my doors when removed?",
+                        "answer": "<p>The 3M VHB adhesive is designed for strong, permanent bonding but can be removed if necessary. To remove, use dental floss or fishing line with a sawing motion behind the mounted unit, then clean any residue with isopropyl alcohol. Some surfaces (particularly painted or veneered) may require touch-up after removal. For historic or delicate surfaces, we recommend testing on an inconspicuous area first.</p>"
+                    },
+                    {
+                        "question": "Can IntelliBolt be used outdoors?",
+                        "answer": "<p>While IntelliBolt has basic moisture resistance, for full outdoor exposure we recommend using our weather enclosure accessory (sold separately). This provides additional protection against rain, dust, and temperature extremes. For complete outdoor installations like gate access, consider our purpose-built outdoor model which offers IP66 weather protection without additional accessories.</p>"
+                    },
+                    {
+                        "question": "How do I integrate IntelliBolt with other systems?",
+                        "answer": "<p>IntelliBolt uses the same management platform and API as all 33Lock products. This means it integrates with popular property management systems, vacation rental platforms, and smart home ecosystems. Our open API documentation allows custom integration with virtually any third-party system. For specific integration questions, our solutions team can provide detailed guidance.</p>"
+                    },
+                    {
+                        "question": "What happens during a power outage?",
+                        "answer": "<p>IntelliBolt operates on 4 AA batteries that typically last 8-12 months under normal use. During a power outage, the lock continues to function normally, including maintaining scheduled access codes and logging entries. If the batteries are depleted, the included USB-C emergency power port allows you to power the lock with any power bank or phone charger to gain access.</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_bolt_use_cases_section",
+            "label": "Use Cases Section",
+            "name": "bolt_use_cases_section",
+            "type": "group",
+            "value": {
+                "use_cases_title": "Perfect for…",
+                "use_cases": [
+                    {
+                        "use_case_text": "Sliding glass patio doors"
+                    },
+                    {
+                        "use_case_text": "Pool and amenity area gates"
+                    },
+                    {
+                        "use_case_text": "Storage rooms and equipment cabinets"
+                    },
+                    {
+                        "use_case_text": "Historic properties with modification restrictions"
+                    },
+                    {
+                        "use_case_text": "Temporary access control needs"
+                    },
+                    {
+                        "use_case_text": "Barn doors and other non-standard closures"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_bolt_cta_section",
+            "label": "CTA Section",
+            "name": "bolt_cta_section",
+            "type": "group",
+            "value": {
+                "cta_title": "See it in action",
+                "cta_text": "Request a sample kit or volume quote to discover how IntelliBolt can secure your specialty door applications with minimal installation time and maximum flexibility.",
+                "cta_supplement": "Combine IntelliBolt with our other smart access products for comprehensive property security controlled from a single management platform.",
+                "cta_button_text": "Request My Quote",
+                "cta_button_url": "/contact",
+                "spec_sheet_button_text": "Download Spec Sheet",
+                "spec_sheet_url": "#"
+            }
+        },
+        {
+            "key": "field_bolt_related_products_section",
+            "label": "Related Products Section",
+            "name": "bolt_related_products_section",
+            "type": "group",
+            "value": {
+                "related_products_title": "Complete your smart access ecosystem",
+                "related_products": [
+                    {
+                        "product_title": "IntelliMortise",
+                        "product_description": "Flagship solution for primary entrance doors",
+                        "product_image": "",
+                        "product_url": "/locks/intellimortise"
+                    },
+                    {
+                        "product_title": "IntelliLever",
+                        "product_description": "Retrofit solution for interior doors",
+                        "product_image": "",
+                        "product_url": "/locks/intellilever"
+                    },
+                    {
+                        "product_title": "IntelliReader",
+                        "product_description": "Common area access controller for lobbies and facilities",
+                        "product_image": "",
+                        "product_url": "/locks/intellireader"
+                    }
+                ]
+            }
+        }
+    ]
+}

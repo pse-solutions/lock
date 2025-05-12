@@ -1,0 +1,371 @@
+{
+    "key": "group_intellilever_data",
+    "title": "IntelliLever Product Data",
+    "fields": [
+        {
+            "key": "field_lever_hero_section",
+            "label": "Hero Section",
+            "name": "lever_hero_section",
+            "type": "group",
+            "value": {
+                "product_title": "Meet IntelliLever",
+                "product_subtitle": "Effortless smart access for interior doors",
+                "product_intro": "No deadbolt? No problem. IntelliLever replaces almost any lever or knob set, turning back‑of‑house, staff, and guest‑room doors into fully connected entry points—without breaking the bank or the drywall.",
+                "specs_button_text": "View Specs",
+                "quote_button_text": "Get a Quote",
+                "quote_button_url": "#quote",
+                "hero_image": "https://placehold.co/800x800/00AEEF/FFFFFF.png?text=IntelliLever"
+            }
+        },
+        {
+            "key": "field_lever_benefits_section",
+            "label": "Benefits Section",
+            "name": "lever_benefits_section",
+            "type": "group",
+            "value": {
+                "benefits_title": "Why properties choose IntelliLever",
+                "benefits": [
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>",
+                        "benefit_title": "Cut install time to < 10 minutes",
+                        "benefit_description": "Fits standard 35‑65 mm doors with adjustable 60‑70 mm backset—no wiring, no skilled labour."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4\"></path></svg>",
+                        "benefit_title": "Six ways to unlock",
+                        "benefit_description": "PIN codes, RFID cards/fobs, mobile keys, Wi‑Fi remote open, fingerprint, or the built‑in mechanical key for total redundancy."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"></rect><rect x=\"2\" y=\"14\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"></rect><line x1=\"6\" y1=\"6\" x2=\"6.01\" y2=\"6\"></line><line x1=\"6\" y1=\"18\" x2=\"6.01\" y2=\"18\"></line></svg>",
+                        "benefit_title": "Online and offline resilience",
+                        "benefit_description": "Cloud control when you want it; autonomous operation when Wi‑Fi drops."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path></svg>",
+                        "benefit_title": "Operations super‑powers",
+                        "benefit_description": "Auto‑re‑lock, passage mode for high‑traffic periods, time‑bound PINs, and real‑time access logs."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"23\"></line><path d=\"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"></path></svg>",
+                        "benefit_title": "Stretches your CapEx",
+                        "benefit_description": "Pair with IntelliMortise on main entries for a mixed‑hardware strategy that slashes per‑door costs."
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_lever_specs_section",
+            "label": "Specifications Section",
+            "name": "lever_specs_section",
+            "type": "group",
+            "value": {
+                "specs_title": "At‑a‑Glance Specifications",
+                "specs": [
+                    {
+                        "spec_name": "Dimensions",
+                        "spec_value": "195 H × 72 W × 24 D mm"
+                    },
+                    {
+                        "spec_name": "Materials",
+                        "spec_value": "Aluminium alloy body, ABS interface"
+                    },
+                    {
+                        "spec_name": "Power",
+                        "spec_value": "4 × AA batteries (Micro‑USB backup)"
+                    },
+                    {
+                        "spec_name": "Door Thickness",
+                        "spec_value": "35 – 65 mm"
+                    },
+                    {
+                        "spec_name": "Backset",
+                        "spec_value": "60 – 70 mm"
+                    },
+                    {
+                        "spec_name": "Operating Temp",
+                        "spec_value": "–20 °C to 50 °C"
+                    },
+                    {
+                        "spec_name": "Humidity",
+                        "spec_value": "0 – 95 % RH"
+                    },
+                    {
+                        "spec_name": "Water/Salt",
+                        "spec_value": "IP55; 200‑hr salt‑spray tested"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_lever_features_section",
+            "label": "Features Section",
+            "name": "lever_features_section",
+            "type": "group",
+            "value": {
+                "features_title": "Feature Checklist",
+                "features": [
+                    {
+                        "feature_text": "Custom 4‑ to 9‑digit PINs for tailored security levels"
+                    },
+                    {
+                        "feature_text": "Door schedules & passage mode for high-traffic periods"
+                    },
+                    {
+                        "feature_text": "Auto re‑lock timer with configurable delay periods"
+                    },
+                    {
+                        "feature_text": "Low‑battery warnings & tamper alerts for proactive security"
+                    },
+                    {
+                        "feature_text": "Comprehensive access-event history exportable to CSV"
+                    },
+                    {
+                        "feature_text": "Remote management capability via smartphone app"
+                    },
+                    {
+                        "feature_text": "Temporary access codes with customizable expiration"
+                    },
+                    {
+                        "feature_text": "Emergency override with mechanical key backup"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_lever_compatibility_section",
+            "label": "Compatibility Section",
+            "name": "lever_compatibility_section",
+            "type": "group",
+            "value": {
+                "compatibility_title": "Door Compatibility Guide",
+                "standard_doors": {
+                    "standard_title": "Perfect for Standard Interior Doors",
+                    "standard_intro": "The IntelliLever is designed to fit almost any standard interior door configuration:",
+                    "standard_items": [
+                        {
+                            "item_text": "Door thickness: 35mm – 65mm (1⅜\" – 2½\")"
+                        },
+                        {
+                            "item_text": "Standard backset: 60mm – 70mm (2⅜\" – 2¾\")"
+                        },
+                        {
+                            "item_text": "Traditional lever or knob replacements"
+                        },
+                        {
+                            "item_text": "Most commercial-grade cylindrical locks"
+                        },
+                        {
+                            "item_text": "Replaces single-hole lever preparations"
+                        }
+                    ],
+                    "standard_conclusion": "IntelliLever features a split-spindle design that works with the vast majority of interior doors, making it an ideal retrofit for staff areas, closets, and secondary entrances."
+                },
+                "specialty_doors": {
+                    "specialty_title": "Specialty Door Compatibility",
+                    "specialty_intro": "IntelliLever can also work with these specialty door types with the right preparation:",
+                    "specialty_items": [
+                        {
+                            "item_text": "Hollow metal doors (with appropriate strike reinforcement)"
+                        },
+                        {
+                            "item_text": "Aluminum frame glass doors (with lever handle preparations)"
+                        },
+                        {
+                            "item_text": "Fire-rated doors (where allowed by local code)"
+                        },
+                        {
+                            "item_text": "Pocket doors (consult with our team for installation guidance)"
+                        },
+                        {
+                            "item_text": "Sliding barn-style doors (with appropriate latch mechanism)"
+                        }
+                    ],
+                    "specialty_tip": "For specialty door installations, we recommend consulting with our support team to ensure proper fit and function before ordering."
+                },
+                "not_compatible": {
+                    "not_compatible_title": "Not Recommended For",
+                    "not_compatible_intro": "The IntelliLever is not ideal for these applications:",
+                    "not_compatible_items": [
+                        {
+                            "item_text": "Main entrance doors (consider our IntelliMortise instead)"
+                        },
+                        {
+                            "item_text": "Doors requiring deadbolts (use IntelliBolt for additional security)"
+                        },
+                        {
+                            "item_text": "Highly weathered exterior doors (IP55 rating has limitations)"
+                        },
+                        {
+                            "item_text": "Extremely thin doors (under 35mm / 1⅜\")"
+                        },
+                        {
+                            "item_text": "Doors with non-standard preparations (custom milling required)"
+                        }
+                    ],
+                    "not_compatible_tip": "Not sure if IntelliLever is right for your door? Send us photos of your existing hardware and we will recommend the best 33Lock solution for your needs."
+                }
+            }
+        },
+        {
+            "key": "field_lever_installation_section",
+            "label": "Installation Section",
+            "name": "lever_installation_section",
+            "type": "group",
+            "value": {
+                "installation_title": "10-Minute Installation Process",
+                "installation_steps": [
+                    {
+                        "step_number": "1",
+                        "step_title": "Remove Existing Hardware",
+                        "step_description": "Start by removing your existing lever handle or doorknob. Just unscrew the two mounting screws on the interior side of the door and pull both sides off. No special tools required – a simple Phillips screwdriver will do the job."
+                    },
+                    {
+                        "step_number": "2",
+                        "step_title": "Install the Mounting Plate",
+                        "step_description": "Place the included mounting plate against the door, feeding the spindle and wire harness through the latch hole. Secure with the supplied screws into the existing screw holes from your previous hardware.",
+                        "step_tip": "Pro Tip: The adjustable backset accommodates both 60mm and 70mm (2⅜\" and 2¾\") configurations without additional adjustments."
+                    },
+                    {
+                        "step_number": "3",
+                        "step_title": "Attach the IntelliLever",
+                        "step_description": "Connect the wire harness to the smart lever body. Slide the lever mechanism onto the mounting plate and secure with the set screws on the underside. Load the 4 AA batteries into the battery compartment."
+                    },
+                    {
+                        "step_number": "4",
+                        "step_title": "Test & Activate",
+                        "step_description": "Test the mechanical function by turning the interior lever. Then activate the smart functions by following the included setup instructions with the 33Lock app. Pair via Bluetooth and connect to your Wi-Fi network.",
+                        "step_tip": "Note: For doors with unusual thickness or custom hardware, our installation kit includes adjustable components to ensure proper fit in almost any situation."
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_lever_testimonial_section",
+            "label": "Testimonial Section",
+            "name": "lever_testimonial_section",
+            "type": "group",
+            "value": {
+                "testimonial_title": "What Our Customers Say",
+                "testimonials": [
+                    {
+                        "testimonial_text": "The IntelliLever has been a perfect solution for our back-of-house doors. Installation was exactly as promised—under 10 minutes per door—and our staff appreciated the minimal disruption. Best of all, we can now securely control access to our storage areas and monitor entry events, which has been invaluable for accountability.",
+                        "testimonial_name": "Michael Reynolds",
+                        "testimonial_position": "Operations Director, City View Hotel"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_lever_faq_section",
+            "label": "FAQ Section",
+            "name": "lever_faq_section",
+            "type": "group",
+            "value": {
+                "faq_title": "Frequently Asked Questions",
+                "faqs": [
+                    {
+                        "question": "Can IntelliLever replace any lever handle?",
+                        "answer": "<p>IntelliLever is designed to replace most standard lever handles and doorknobs on interior doors with a thickness of 35-65mm (1⅜\" - 2½\") and standard backsets of 60-70mm (2⅜\" - 2¾\"). It is not suitable for mortise locks or deadbolts. If you are unsure about compatibility, our team can help assess your specific door setup before you purchase.</p>"
+                    },
+                    {
+                        "question": "How long do the batteries last?",
+                        "answer": "<p>The 4 AA batteries typically last 10-12 months with normal use (approximately 10-15 entries per day). Battery life may vary based on usage frequency, connectivity settings, and environmental factors. The lock provides low battery warnings through the app and on the lock itself when levels reach approximately 20%, giving you ample time to replace them.</p>"
+                    },
+                    {
+                        "question": "What happens if the batteries die?",
+                        "answer": "<p>IntelliLever includes multiple backup options: 1) An emergency micro-USB port for temporary power, 2) A mechanical key override, and 3) Non-volatile memory that retains all programming even when power is completely lost. Once power is restored, all your settings and access credentials remain intact without reprogramming.</p>"
+                    },
+                    {
+                        "question": "Does IntelliLever work with my existing access control system?",
+                        "answer": "<p>IntelliLever works with most major property management systems through our open API. It integrates directly with platforms like Cloudbeds, Mews, and other popular PMS systems. For specialized integrations, our technical team can provide guidance on API usage or suggest middleware solutions where necessary.</p>"
+                    },
+                    {
+                        "question": "Can I use IntelliLever for exterior doors?",
+                        "answer": "<p>While IntelliLever carries an IP55 rating and has been salt-spray tested for 200 hours, we generally recommend our IntelliMortise for primary exterior entrances that require higher security. IntelliLever can be used on protected exterior doors (under covered areas) in moderate climates, but may not be suitable for harsh weather conditions or high-security access points.</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_lever_use_cases_section",
+            "label": "Use Cases Section",
+            "name": "lever_use_cases_section",
+            "type": "group",
+            "value": {
+                "use_cases_title": "Perfect for…",
+                "use_cases": [
+                    {
+                        "use_case_text": "Staff doors & maintenance closets with access logging"
+                    },
+                    {
+                        "use_case_text": "Budget-sensitive retrofit projects requiring rapid deployment"
+                    },
+                    {
+                        "use_case_text": "Secondary guest-room entries with coordinated master key systems"
+                    },
+                    {
+                        "use_case_text": "Student housing & co-living units requiring scheduled access"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_lever_cta_section",
+            "label": "CTA Section",
+            "name": "lever_cta_section",
+            "type": "group",
+            "value": {
+                "cta_title": "Ready to upgrade?",
+                "cta_text": "Book a 10‑minute demo to see IntelliLever in action or request a volume quote today.",
+                "cta_supplement": "Pair IntelliLever with IntelliMortise for suite entrances and enjoy a unified, cost‑effective smart‑access ecosystem.",
+                "cta_button_text": "Get My Quote",
+                "cta_button_url": "/contact"
+            }
+        },
+        {
+            "key": "field_lever_related_products_section",
+            "label": "Related Products Section",
+            "name": "lever_related_products_section",
+            "type": "group",
+            "value": {
+                "related_products_title": "Complete your smart access ecosystem",
+                "related_products": [
+                    {
+                        "product_title": "IntelliMortise",
+                        "product_description": "Flagship security for main entrances and exterior doors",
+                        "product_url": "/locks/intellimortise"
+                    },
+                    {
+                        "product_title": "IntelliBolt",
+                        "product_description": "Surface-mount solution for specialty doors",
+                        "product_url": "/locks/intellibolt"
+                    },
+                    {
+                        "product_title": "IntelliReader",
+                        "product_description": "Common area access controller for lobbies and facilities",
+                        "product_url": "/locks/intellireader"
+                    }
+                ]
+            }
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates/intelli-lever-template.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "Sample data for IntelliLever product page"
+}

@@ -1,0 +1,395 @@
+{
+    "key": "group_intelli_mortise_template",
+    "title": "IntelliMortise Product Template",
+    "fields": [
+        {
+            "key": "field_mortise_hero_section",
+            "label": "Hero Section",
+            "name": "mortise_hero_section",
+            "type": "group",
+            "value": {
+                "product_title": "Meet IntelliMortise – flagship smart security for primary doors",
+                "product_intro": "Engineered for high-traffic guest entries, IntelliMortise blends hotel-grade durability with sleek styling in brushed stainless or satin black. Choose a capacitive touchscreen or tactile push-button keypad and upgrade new builds or retrofits in under 15 minutes—no wiring required.",
+                "hero_image": "",
+                "specs_button_text": "View Specs",
+                "quote_button_text": "Get a Quote",
+                "quote_button_url": "#quote"
+            }
+        },
+        {
+            "key": "field_mortise_benefits_section",
+            "label": "Benefits Section",
+            "name": "mortise_benefits_section",
+            "type": "group",
+            "value": {
+                "benefits_title": "Why properties choose IntelliMortise",
+                "benefits": [
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"></circle><polyline points=\"21 15 16 10 5 21\"></polyline></svg>",
+                        "benefit_title": "Built for demanding entrances",
+                        "benefit_description": "20-minute UL/CAN-ULC fire rating, IP55 weather-seal, and 304 stainless body handle harsh climates and daily use."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4\"></path></svg>",
+                        "benefit_title": "Seven ways to unlock",
+                        "benefit_description": "PIN, RFID, mobile key, Wi-Fi remote open, fingerprint, Bluetooth, or mechanical override—guaranteed continuity."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"></rect><rect x=\"2\" y=\"14\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"></rect><line x1=\"6\" y1=\"6\" x2=\"6.01\" y2=\"6\"></line><line x1=\"6\" y1=\"18\" x2=\"6.01\" y2=\"18\"></line></svg>",
+                        "benefit_title": "Online power, offline resilience",
+                        "benefit_description": "Cloud control when connected; autonomous schedules and audit trails when the network drops."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path></svg>",
+                        "benefit_title": "Fully programmable access",
+                        "benefit_description": "Time-bound PINs, door schedules, passage mode, and auto-re-lock protect guests and streamline staff rounds."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18\"></path></svg>",
+                        "benefit_title": "Future-proof finishes & UI",
+                        "benefit_description": "Swap keypad style or colourway to match any design refresh—no new holes, no new hardware."
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_mortise_specs_section",
+            "label": "Specifications Section",
+            "name": "mortise_specs_section",
+            "type": "group",
+            "value": {
+                "specs_title": "At-a-Glance Specifications",
+                "specs": [
+                    {
+                        "spec_name": "Front / Back",
+                        "spec_value": "173 × 72 × 22 mm / 172 × 72 × 31 mm"
+                    },
+                    {
+                        "spec_name": "Materials",
+                        "spec_value": "304 stainless-steel body, ABS interface"
+                    },
+                    {
+                        "spec_name": "Power",
+                        "spec_value": "4 × AAA batteries • USB-C backup"
+                    },
+                    {
+                        "spec_name": "Door Thickness",
+                        "spec_value": "35 – 65 mm"
+                    },
+                    {
+                        "spec_name": "Operating Temp",
+                        "spec_value": "–25 °C to 60 °C"
+                    },
+                    {
+                        "spec_name": "Humidity",
+                        "spec_value": "0 – 95 % RH"
+                    },
+                    {
+                        "spec_name": "Ingress / Corrosion",
+                        "spec_value": "IP55 • 200 hr salt-spray"
+                    },
+                    {
+                        "spec_name": "Fire Rating",
+                        "spec_value": "20 min (UL 10C/B, NFPA 252, CAN/ULC S104)"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_mortise_features_section",
+            "label": "Features Section",
+            "name": "mortise_features_section",
+            "type": "group",
+            "value": {
+                "features_title": "Feature Checklist",
+                "features": [
+                    {
+                        "feature_text": "Online & offline operation"
+                    },
+                    {
+                        "feature_text": "Touchscreen or push-button keypad"
+                    },
+                    {
+                        "feature_text": "Custom 4- to 9-digit PINs"
+                    },
+                    {
+                        "feature_text": "Auto re-lock & passage mode"
+                    },
+                    {
+                        "feature_text": "Low-battery, tamper & door-ajar alerts"
+                    },
+                    {
+                        "feature_text": "Exportable access logs"
+                    },
+                    {
+                        "feature_text": "Remote access management"
+                    },
+                    {
+                        "feature_text": "Emergency key override"
+                    },
+                    {
+                        "feature_text": "ANSI Grade 1 deadbolt"
+                    },
+                    {
+                        "feature_text": "RFID card/fob compatibility"
+                    },
+                    {
+                        "feature_text": "API for third-party integration"
+                    },
+                    {
+                        "feature_text": "Firmware updates via Bluetooth"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_mortise_compatibility_section",
+            "label": "Compatibility Section",
+            "name": "mortise_compatibility_section",
+            "type": "group",
+            "value": {
+                "compatibility_title": "Door Compatibility Guide",
+                "standard_doors": {
+                    "standard_title": "Ideal for Primary Entrances",
+                    "standard_intro": "IntelliMortise is designed for exterior and primary entrance doors with these specifications:",
+                    "standard_items": [
+                        {
+                            "item_text": "Door thickness: 35mm – 65mm (1⅜" – 2½")"
+                        },
+                        {
+                            "item_text": "Standard mortise lock preparations"
+                        },
+                        {
+                            "item_text": "Main entrance doors with mortise deadbolt"
+                        },
+                        {
+                            "item_text": "Suite and guest-room entrances"
+                        },
+                        {
+                            "item_text": "Fire-rated doors (20-minute UL/CAN-ULC rating)"
+                        }
+                    ],
+                    "standard_conclusion": "IntelliMortise delivers outstanding security and durability for primary entries, with flexible keypad options to match your design aesthetic."
+                },
+                "specialty_doors": {
+                    "specialty_title": "Specialty Door Compatibility",
+                    "specialty_intro": "IntelliMortise can also work with these specialty door types:",
+                    "specialty_items": [
+                        {
+                            "item_text": "Sliding doors (with mortise lock preparation)"
+                        },
+                        {
+                            "item_text": "Exterior weatherized doors (with our IP55 rating)"
+                        },
+                        {
+                            "item_text": "Metal frame doors (with appropriate strike preparation)"
+                        },
+                        {
+                            "item_text": "Oversized doors (up to 65mm / 2½" thick)"
+                        },
+                        {
+                            "item_text": "Emergency exit paths (where local code allows)"
+                        }
+                    ],
+                    "specialty_tip": "For specialty applications, our technical team can provide guidance on preparation and installation to ensure proper fit and function."
+                },
+                "not_compatible": {
+                    "not_compatible_title": "Not Recommended For",
+                    "not_compatible_intro": "The IntelliMortise is not ideal for these applications:",
+                    "not_compatible_items": [
+                        {
+                            "item_text": "Cylindrical lock preparations (use IntelliLever instead)"
+                        },
+                        {
+                            "item_text": "Doors thinner than 35mm / 1⅜""
+                        },
+                        {
+                            "item_text": "Doors without adequate mortise preparation"
+                        },
+                        {
+                            "item_text": "Extreme environment applications (beyond IP55)"
+                        },
+                        {
+                            "item_text": "Doors without frame preparation for strike plate"
+                        }
+                    ],
+                    "not_compatible_tip": "Not sure which 33Lock solution is right for your application? Contact our team with photos of your existing setup for personalized recommendations."
+                }
+            }
+        },
+        {
+            "key": "field_mortise_installation_section",
+            "label": "Installation Section",
+            "name": "mortise_installation_section",
+            "type": "group",
+            "value": {
+                "installation_title": "15-Minute Installation Process",
+                "installation_steps": [
+                    {
+                        "step_number": "1",
+                        "step_title": "Remove Existing Hardware",
+                        "step_description": "Begin by removing your current lock, including both the interior and exterior components. Use a Phillips screwdriver to remove all mounting screws. For mortise locks, remove the lock body from the door edge.",
+                        "step_tip": ""
+                    },
+                    {
+                        "step_number": "2",
+                        "step_title": "Insert the Mortise Lock Body",
+                        "step_description": "Slide the IntelliMortise lock body into the mortise pocket in the door edge. Secure it with the two screws provided. The lock body should fit snugly with the latch bolt and deadbolt extending from the door edge.",
+                        "step_tip": "Pro Tip: Apply a small amount of the included lithium grease to ensure smooth operation of the lock body components."
+                    },
+                    {
+                        "step_number": "3",
+                        "step_title": "Mount the Exterior Escutcheon",
+                        "step_description": "Feed the data cable through the door hole, then position the exterior escutcheon on the door, aligning the spindle with the hub in the mortise lock. Hold it in place while continuing to the next step.",
+                        "step_tip": ""
+                    },
+                    {
+                        "step_number": "4",
+                        "step_title": "Secure Interior Mounting Plate",
+                        "step_description": "Connect the data cable to the interior assembly, then attach the interior mounting plate to the exterior escutcheon using the through-bolts provided. Ensure the plate is level before tightening the screws.",
+                        "step_tip": ""
+                    },
+                    {
+                        "step_number": "5",
+                        "step_title": "Complete Assembly & Test",
+                        "step_description": "Attach the interior cover to the mounting plate, install the batteries, and test both mechanical and electronic operation. Follow the included instructions to program your IntelliMortise using the 33Lock mobile app.",
+                        "step_tip": "Note: For proper strike alignment, you may need to adjust the strike plate on the door frame. Use the included shims if needed."
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_mortise_testimonial_section",
+            "label": "Testimonial Section",
+            "name": "mortise_testimonial_section",
+            "type": "group",
+            "value": {
+                "testimonial_title": "What Our Customers Say",
+                "testimonials": [
+                    {
+                        "testimonial_text": "IntelliMortise has revolutionized our check-in process. The installation was straightforward, and we've reduced front-desk wait times by 80%. Our guests love using their phones to unlock doors, and management appreciates the detailed access logs and ability to grant temporary access to staff.",
+                        "testimonial_name": "Sarah Johnson",
+                        "testimonial_position": "General Manager, Oceanview Resort",
+                        "testimonial_avatar": ""
+                    },
+                    {
+                        "testimonial_text": "After evaluating several smart lock solutions, we chose IntelliMortise for our 200-room property renovation. The durability, offline functionality, and ease of management were key factors. The installation team completed the entire project in just one week with minimal disruption to operations.",
+                        "testimonial_name": "Michael Chen",
+                        "testimonial_position": "Operations Director, Grand Metro Hotel",
+                        "testimonial_avatar": ""
+                    },
+                    {
+                        "testimonial_text": "The versatility of these locks is impressive. We use them on various door types across our multi-building campus, and they integrate perfectly with our property management system. Technical support has been exceptional whenever we've needed assistance.",
+                        "testimonial_name": "Jennifer Williams",
+                        "testimonial_position": "Property Technology Manager, Sunrise Hospitality Group",
+                        "testimonial_avatar": ""
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_mortise_faq_section",
+            "label": "FAQ Section",
+            "name": "mortise_faq_section",
+            "type": "group",
+            "value": {
+                "faq_title": "Frequently Asked Questions",
+                "faqs": [
+                    {
+                        "question": "What makes IntelliMortise different from other smart locks?",
+                        "answer": "<p>IntelliMortise combines commercial-grade durability with user-friendly smart access features. Its key differentiators include the 20-minute fire rating, weather resistance (IP55), and flexibility to choose between touchscreen and push-button interfaces. The mortise design provides superior security compared to cylindrical locks, and our offline operation capability ensures functionality even during network outages.</p>"
+                    },
+                    {
+                        "question": "How long do the batteries last?",
+                        "answer": "<p>The 4 AAA batteries typically last 12-15 months with normal use (approximately 10-20 entries per day). Battery life will vary based on usage frequency, connectivity settings, and environmental factors. The lock provides low battery warnings through the app and on the lock itself when levels reach approximately 20%, giving you ample time to replace them.</p>"
+                    },
+                    {
+                        "question": "What happens if batteries die completely?",
+                        "answer": "<p>IntelliMortise includes multiple backup options: 1) A USB-C emergency power port on the bottom of the exterior escutcheon, 2) A mechanical key override hidden behind the logo plate, and 3) Non-volatile memory that retains all programming even when power is completely lost. Once power is restored, all your settings and access credentials remain intact without reprogramming.</p>"
+                    },
+                    {
+                        "question": "Can I integrate IntelliMortise with my property management system?",
+                        "answer": "<p>Yes. IntelliMortise integrates with most major property management systems (PMS) through our open API. We have direct integrations with platforms like Cloudbeds, Mews, and other popular systems. For specialized PMS integrations, our technical team can provide guidance on API usage or suggest middleware solutions to connect your systems.</p>"
+                    },
+                    {
+                        "question": "Is IntelliMortise suitable for exterior doors?",
+                        "answer": "<p>Absolutely. IntelliMortise is specifically designed for exterior doors with its IP55 water and dust resistance rating and salt-spray testing certification. The 304 stainless steel components resist corrosion in most environments. For coastal environments with extreme salt exposure, we recommend the PVD coating option for extended durability.</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_mortise_use_cases_section",
+            "label": "Use Cases Section",
+            "name": "mortise_use_cases_section",
+            "type": "group",
+            "value": {
+                "use_cases_title": "Perfect for…",
+                "use_cases": [
+                    {
+                        "use_case_text": "Guest-room and suite entrances"
+                    },
+                    {
+                        "use_case_text": "Exterior doors exposed to weather"
+                    },
+                    {
+                        "use_case_text": "Retrofit projects needing code compliance"
+                    },
+                    {
+                        "use_case_text": "Mixed-hardware portfolios (pair with IntelliLever inside)"
+                    },
+                    {
+                        "use_case_text": "Properties with fluctuating network stability"
+                    },
+                    {
+                        "use_case_text": "Buildings with fire-code requirements"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_mortise_cta_section",
+            "label": "CTA Section",
+            "name": "mortise_cta_section",
+            "type": "group",
+            "value": {
+                "cta_title": "See it in action",
+                "cta_text": "Book a 10-minute demo or request a volume quote to discover how IntelliMortise upgrades security, cuts front-desk load, and delights every guest.",
+                "cta_supplement": "Bundle IntelliMortise for suites and IntelliLever for back-of-house to slash per-door costs while keeping a single management platform.",
+                "cta_button_text": "Request My Quote",
+                "cta_button_url": "/contact",
+                "spec_sheet_button_text": "Download Spec Sheet",
+                "spec_sheet_url": "#"
+            }
+        },
+        {
+            "key": "field_mortise_related_products_section",
+            "label": "Related Products Section",
+            "name": "mortise_related_products_section",
+            "type": "group",
+            "value": {
+                "related_products_title": "Complete your smart access ecosystem",
+                "related_products": [
+                    {
+                        "product_title": "IntelliLever",
+                        "product_description": "Retrofit solution for interior doors",
+                        "product_image": "",
+                        "product_url": "/locks/intellilever"
+                    },
+                    {
+                        "product_title": "IntelliBolt",
+                        "product_description": "Surface-mount solution for specialty doors",
+                        "product_image": "",
+                        "product_url": "/locks/intellibolt"
+                    },
+                    {
+                        "product_title": "IntelliReader",
+                        "product_description": "Common area access controller for lobbies and facilities",
+                        "product_image": "",
+                        "product_url": "/locks/intellireader"
+                    }
+                ]
+            }
+        }
+    ]
+}

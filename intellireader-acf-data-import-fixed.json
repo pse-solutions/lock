@@ -1,0 +1,395 @@
+{
+    "key": "group_intelli_reader_template",
+    "title": "IntelliReader Product Template",
+    "fields": [
+        {
+            "key": "field_reader_hero_section",
+            "label": "Hero Section",
+            "name": "reader_hero_section",
+            "type": "group",
+            "value": {
+                "product_title": "Meet IntelliReader – streamlined access for common areas",
+                "product_intro": "Manage access to lobbies, amenity spaces, and facilities with this sleek, wall-mounted reader. Supporting PIN codes, mobile keys, and RFID, IntelliReader integrates seamlessly with your property's access control system while handling high-traffic areas that don't need physical locks.",
+                "hero_image": "",
+                "specs_button_text": "View Specs",
+                "quote_button_text": "Get a Quote",
+                "quote_button_url": "#quote"
+            }
+        },
+        {
+            "key": "field_reader_benefits_section",
+            "label": "Benefits Section",
+            "name": "reader_benefits_section",
+            "type": "group",
+            "value": {
+                "benefits_title": "Why properties choose IntelliReader",
+                "benefits": [
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"></rect><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"></circle><polyline points=\"21 15 16 10 5 21\"></polyline></svg>",
+                        "benefit_title": "Multi-point access control",
+                        "benefit_description": "Control electric strikes, magnetic locks, and motorized doors from a single slim reader—no physical lock needed."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4\"></path></svg>",
+                        "benefit_title": "Triple credential support",
+                        "benefit_description": "Accept entry via PIN codes, mobile app virtual keys, or RFID cards/fobs for maximum flexibility."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"></rect><rect x=\"2\" y=\"14\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"></rect><line x1=\"6\" y1=\"6\" x2=\"6.01\" y2=\"6\"></line><line x1=\"6\" y1=\"18\" x2=\"6.01\" y2=\"18\"></line></svg>",
+                        "benefit_title": "Slim, elegant design",
+                        "benefit_description": "Low-profile wall-mount design with illuminated feedback fits modern spaces without detracting from your aesthetic."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path></svg>",
+                        "benefit_title": "Seamless platform integration",
+                        "benefit_description": "Shares the same management software as our smart locks, keeping all access credentials on one platform."
+                    },
+                    {
+                        "benefit_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18\"></path></svg>",
+                        "benefit_title": "Customizable installation",
+                        "benefit_description": "Connect to electric strikes, magnetic locks, automatic door operators, gate motors, and more via dry contact relays."
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_reader_specs_section",
+            "label": "Specifications Section",
+            "name": "reader_specs_section",
+            "type": "group",
+            "value": {
+                "specs_title": "At-a-Glance Specifications",
+                "specs": [
+                    {
+                        "spec_name": "Dimensions",
+                        "spec_value": "120 × 80 × 15 mm"
+                    },
+                    {
+                        "spec_name": "Materials",
+                        "spec_value": "Tempered glass front, ABS housing"
+                    },
+                    {
+                        "spec_name": "Power",
+                        "spec_value": "12–24V DC • 5V micro-USB"
+                    },
+                    {
+                        "spec_name": "Output",
+                        "spec_value": "2 × dry contact relays (NO/NC)"
+                    },
+                    {
+                        "spec_name": "Operating Temp",
+                        "spec_value": "–20 °C to 60 °C"
+                    },
+                    {
+                        "spec_name": "Humidity",
+                        "spec_value": "0 – 95 % RH"
+                    },
+                    {
+                        "spec_name": "Ingress Protection",
+                        "spec_value": "IP66 (dust-tight, water resistant)"
+                    },
+                    {
+                        "spec_name": "Connectivity",
+                        "spec_value": "Wi-Fi, Bluetooth, Z-Wave (optional)"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_reader_features_section",
+            "label": "Features Section",
+            "name": "reader_features_section",
+            "type": "group",
+            "value": {
+                "features_title": "Feature Checklist",
+                "features": [
+                    {
+                        "feature_text": "Multi-credential access (PIN, RFID, mobile)"
+                    },
+                    {
+                        "feature_text": "Capacitive touch keypad with backlighting"
+                    },
+                    {
+                        "feature_text": "Tamper detection and alerts"
+                    },
+                    {
+                        "feature_text": "Dry contact relays (NO/NC selectable)"
+                    },
+                    {
+                        "feature_text": "Programmable access schedules"
+                    },
+                    {
+                        "feature_text": "Time-bound credential support"
+                    },
+                    {
+                        "feature_text": "4,000+ event storage capacity"
+                    },
+                    {
+                        "feature_text": "Exportable access logs"
+                    },
+                    {
+                        "feature_text": "Remote management via cloud"
+                    },
+                    {
+                        "feature_text": "Anti-passback functionality"
+                    },
+                    {
+                        "feature_text": "Supports Wiegand readers (optional)"
+                    },
+                    {
+                        "feature_text": "Multiple reader networking capability"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_reader_compatibility_section",
+            "label": "Compatibility Section",
+            "name": "reader_compatibility_section",
+            "type": "group",
+            "value": {
+                "compatibility_title": "System Compatibility Guide",
+                "standard_doors": {
+                    "standard_title": "Standard Integrations",
+                    "standard_intro": "IntelliReader works with most common access systems and credentials:",
+                    "standard_items": [
+                        {
+                            "item_text": "Electric strikes (12-24V DC)"
+                        },
+                        {
+                            "item_text": "Magnetic locks"
+                        },
+                        {
+                            "item_text": "Automatic door operators"
+                        },
+                        {
+                            "item_text": "Electronic deadbolts"
+                        },
+                        {
+                            "item_text": "RFID cards: 13.56 MHz (MIFARE Classic, Ultralight, DESFire)"
+                        }
+                    ],
+                    "standard_conclusion": "IntelliReader's versatile relay outputs can control virtually any electric door hardware, with simple configuration via our management platform."
+                },
+                "specialty_doors": {
+                    "specialty_title": "Advanced Integrations",
+                    "specialty_intro": "IntelliReader also supports these more specialized systems:",
+                    "specialty_items": [
+                        {
+                            "item_text": "Gate and parking barrier controllers"
+                        },
+                        {
+                            "item_text": "Elevator floor access control"
+                        },
+                        {
+                            "item_text": "Third-party access controllers via Wiegand"
+                        },
+                        {
+                            "item_text": "Building automation systems (with optional module)"
+                        },
+                        {
+                            "item_text": "Property management systems via API"
+                        }
+                    ],
+                    "specialty_tip": "For complex integrations like elevator control or multi-door interlocks, contact our solutions team for implementation guidance and wiring diagrams."
+                },
+                "not_compatible": {
+                    "not_compatible_title": "Not Compatible With",
+                    "not_compatible_intro": "IntelliReader is not designed for the following:",
+                    "not_compatible_items": [
+                        {
+                            "item_text": "Direct replacement of mechanical locks (no physical locking mechanism)"
+                        },
+                        {
+                            "item_text": "125 kHz proximity cards (HID ProxCard, EM4100)"
+                        },
+                        {
+                            "item_text": "Systems requiring fail-secure operation without backup power"
+                        },
+                        {
+                            "item_text": "Doors without nearby power source (no battery operation)"
+                        },
+                        {
+                            "item_text": "Legacy Wiegand systems using non-standard data formats"
+                        }
+                    ],
+                    "not_compatible_tip": "If you need a standalone smart lock with integrated mechanical locking, consider our IntelliMortise, IntelliLever, or IntelliBolt products instead."
+                }
+            }
+        },
+        {
+            "key": "field_reader_installation_section",
+            "label": "Installation Section",
+            "name": "reader_installation_section",
+            "type": "group",
+            "value": {
+                "installation_title": "Professional Installation Process",
+                "installation_steps": [
+                    {
+                        "step_number": "1",
+                        "step_title": "Site Preparation",
+                        "step_description": "Determine optimal reader location near the door (typically 48\" from floor). Ensure power is available at the installation site (12-24V DC required). Plan wire routes to electric strike or magnetic lock.",
+                        "step_tip": "We recommend using a multi-conductor cable (minimum 18 AWG) with sufficient wires for power, ground, and relay connections."
+                    },
+                    {
+                        "step_number": "2",
+                        "step_title": "Mount Backplate",
+                        "step_description": "Remove the backplate from the reader. Use it as a template to mark mounting holes. Drill holes for anchors if mounting to drywall. Thread the connection wires through the central opening and secure the backplate with provided screws.",
+                        "step_tip": ""
+                    },
+                    {
+                        "step_number": "3",
+                        "step_title": "Wire Connections",
+                        "step_description": "Connect power wires to the marked terminals (observe polarity). Connect the relay output wires to your electric strike, magnetic lock, or door operator according to the wiring diagram. Apply electrical tape to all connections.",
+                        "step_tip": "For magnetic locks (fail-safe), use the NC contact. For electric strikes (fail-secure), use the NO contact. Refer to the included wiring diagrams for detailed instructions."
+                    },
+                    {
+                        "step_number": "4",
+                        "step_title": "Attach Reader to Backplate",
+                        "step_description": "Carefully align the reader with the backplate and snap it into place. Secure with the bottom security screw using the provided special tool. Test power by confirming the reader's keypad illuminates.",
+                        "step_tip": ""
+                    },
+                    {
+                        "step_number": "5",
+                        "step_title": "System Configuration",
+                        "step_description": "Connect the reader to Wi-Fi using the 33Lock mobile app. Configure relay timing, access credentials, and other settings through the management interface. Test operation by verifying the door unlocks with valid credentials.",
+                        "step_tip": "For optimal performance, conduct a signal strength test for WiFi at the installation location before final mounting."
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_reader_testimonial_section",
+            "label": "Testimonial Section",
+            "name": "reader_testimonial_section",
+            "type": "group",
+            "value": {
+                "testimonial_title": "What Our Customers Say",
+                "testimonials": [
+                    {
+                        "testimonial_text": "We installed IntelliReaders at all our common area access points—gym, pool, roof deck, and main entrance. The unified platform means our residents can use the same credentials everywhere, and we've dramatically reduced key management headaches and security risks from lost cards.",
+                        "testimonial_name": "Jason Martinez",
+                        "testimonial_position": "Property Manager, Urban Heights Residences",
+                        "testimonial_avatar": ""
+                    },
+                    {
+                        "testimonial_text": "The ability to instantly provide or revoke access has transformed our operation. When we have maintenance contractors on site, we can grant temporary PIN codes that automatically expire. The detailed logs let us know exactly who accessed what areas and when.",
+                        "testimonial_name": "Lisa Wong",
+                        "testimonial_position": "Operations Director, Metro Place Hotel",
+                        "testimonial_avatar": ""
+                    },
+                    {
+                        "testimonial_text": "What impressed me most was the easy integration with our existing door hardware. We kept our magnetic locks and simply replaced the old keypads with IntelliReaders. The sleek design gets compliments from visitors, and the cloud management is intuitive even for our less tech-savvy staff.",
+                        "testimonial_name": "David Coleman",
+                        "testimonial_position": "Facilities Coordinator, Westside Executive Offices",
+                        "testimonial_avatar": ""
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_reader_faq_section",
+            "label": "FAQ Section",
+            "name": "reader_faq_section",
+            "type": "group",
+            "value": {
+                "faq_title": "Frequently Asked Questions",
+                "faqs": [
+                    {
+                        "question": "Can IntelliReader control multiple doors or access points?",
+                        "answer": "<p>Yes, IntelliReader has two independent relay outputs that can control separate doors or devices. For example, one reader could control both a vehicle gate and a pedestrian gate, or both the exterior door and an interior door of an airlock/mantrap configuration. For more complex multi-door scenarios, multiple readers can be networked together and managed from the same interface.</p>"
+                    },
+                    {
+                        "question": "What happens during a power outage?",
+                        "answer": "<p>IntelliReader requires constant power to operate, but your access system's fail state depends on the type of locks used. Magnetic locks (fail-safe) will unlock during power loss, while electric strikes (fail-secure) will remain locked. For critical applications, we recommend connecting to a battery backup or UPS to maintain operation during power outages. The reader itself has a memory backup that retains all access credentials and settings regardless of power status.</p>"
+                    },
+                    {
+                        "question": "Is IntelliReader suitable for outdoor installation?",
+                        "answer": "<p>Yes, IntelliReader has an IP66 rating which means it's dust-tight and protected against powerful water jets. It's suitable for installation in covered outdoor locations or areas exposed to weather. For extreme environments or direct exposure to heavy rain and snow, we recommend installing under an overhang or using our optional weather shield accessory to extend service life.</p>"
+                    },
+                    {
+                        "question": "Can I use my existing access cards or fobs?",
+                        "answer": "<p>IntelliReader is compatible with 13.56 MHz MIFARE format cards and fobs (including Classic, Ultralight, and DESFire). If you're currently using this format, your credentials will likely work. The reader is not compatible with 125 kHz proximity formats (like HID ProxCard or EM4100). We offer a credential migration service to help properties transition from older systems, including options to support dual-format credentials during the transition period.</p>"
+                    },
+                    {
+                        "question": "How does IntelliReader integrate with our property management system?",
+                        "answer": "<p>IntelliReader uses the same cloud platform as all 33Lock products, offering several integration options: 1) Direct API integration with major PMS platforms like Mews, Cloudbeds, and RMS, 2) Middleware integration through hospitality specialists like Operto, ASSA ABLOY, or RemoteLock, 3) Custom API integration using our developer documentation. The system can automatically assign and revoke credentials based on reservations, check-ins/check-outs, and other PMS events.</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_reader_use_cases_section",
+            "label": "Use Cases Section",
+            "name": "reader_use_cases_section",
+            "type": "group",
+            "value": {
+                "use_cases_title": "Perfect for…",
+                "use_cases": [
+                    {
+                        "use_case_text": "Building main entrances and lobbies"
+                    },
+                    {
+                        "use_case_text": "Fitness centers and amenity spaces"
+                    },
+                    {
+                        "use_case_text": "Pool areas and outdoor facilities"
+                    },
+                    {
+                        "use_case_text": "Parking garage access points"
+                    },
+                    {
+                        "use_case_text": "Meeting rooms and co-working spaces"
+                    },
+                    {
+                        "use_case_text": "Server rooms and secure storage areas"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "field_reader_cta_section",
+            "label": "CTA Section",
+            "name": "reader_cta_section",
+            "type": "group",
+            "value": {
+                "cta_title": "See it in action",
+                "cta_text": "Request a demo or volume quote to discover how IntelliReader streamlines common area access control while integrating perfectly with your door hardware and property management systems.",
+                "cta_supplement": "Deploy alongside our intelligent door locks for comprehensive property security controlled from one intuitive management platform.",
+                "cta_button_text": "Request My Quote",
+                "cta_button_url": "/contact",
+                "spec_sheet_button_text": "Download Spec Sheet",
+                "spec_sheet_url": "#"
+            }
+        },
+        {
+            "key": "field_reader_related_products_section",
+            "label": "Related Products Section",
+            "name": "reader_related_products_section",
+            "type": "group",
+            "value": {
+                "related_products_title": "Complete your smart access ecosystem",
+                "related_products": [
+                    {
+                        "product_title": "IntelliMortise",
+                        "product_description": "Flagship solution for primary entrance doors",
+                        "product_image": "",
+                        "product_url": "/locks/intellimortise"
+                    },
+                    {
+                        "product_title": "IntelliLever",
+                        "product_description": "Retrofit solution for interior doors",
+                        "product_image": "",
+                        "product_url": "/locks/intellilever"
+                    },
+                    {
+                        "product_title": "IntelliBolt",
+                        "product_description": "Surface-mount solution for specialty doors",
+                        "product_image": "",
+                        "product_url": "/locks/intellibolt"
+                    }
+                ]
+            }
+        }
+    ]
+}

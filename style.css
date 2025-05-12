@@ -1,0 +1,149 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Child Theme Author
+Author URI: https://yourwebsite.com
+Description: Child theme for Astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+*/
+
+/* Add your custom styles below this line */
+
+/* Ensure header is always visible */
+#masthead, 
+.site-header,
+.ast-primary-header-bar,
+.ast-mobile-header-wrap,
+.ast-desktop-header-content,
+.ast-mobile-header-content {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  z-index: 99 !important; /* Ensure it's above other elements */
+}
+
+/* Ensure mobile menu functionality */
+.ast-mobile-menu-trigger,
+.menu-toggle,
+.ast-button,
+.ast-mobile-menu-buttons,
+button.menu-toggle,
+.ast-mobile-header-wrap .ast-button,
+.ast-mobile-header-wrap .menu-toggle {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Ensure navigation is visible */
+.main-navigation,
+.ast-main-header-bar-alignment,
+.ast-header-navigation-wrap,
+.site-header-primary-section-right,
+.site-header-primary-section-left,
+nav.ast-header-navigation,
+.site-header-focus-item,
+.ast-header-break-point,
+.ast-mobile-header-wrap .ast-mobile-header-content {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Desktop Menu Styles */
+body:not(.ast-header-break-point) .ast-main-header-bar-alignment .main-header-menu,
+body:not(.ast-header-break-point) .main-navigation ul,
+body:not(.ast-header-break-point) .ast-desktop .main-header-menu {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
+
+/* Desktop menu items display */
+body:not(.ast-header-break-point) .main-header-menu > .menu-item {
+  display: inline-block !important;
+}
+
+/* Desktop submenu display */
+body:not(.ast-header-break-point) .main-header-menu .sub-menu {
+  display: none !important;
+}
+
+body:not(.ast-header-break-point) .main-header-menu .menu-item:hover > .sub-menu {
+  display: block !important;
+  position: absolute !important;
+  left: 0;
+  top: 100%;
+}
+
+/* Ensure no spacing issues in menu items */
+body:not(.ast-header-break-point) .main-header-menu > .menu-item > .menu-link {
+  padding: 0 1em;
+  line-height: 3.5em;
+}
+
+/* Fix for showing menu nav bar if it has a sticky class */
+.ast-sticky-active,
+.ast-sticky-header-shrink {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Site header with shadow */
+.site-header {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Default CSS variables for consistent styling */
+:root {
+  --primary-color: #00AEEF; /* 33Lock teal */
+  --primary-dark: #0095CC;
+  --primary-light: #E6F7FD;
+  --dark-color: #3D4A5D; /* Slate dark */
+  --light-color: #F8F9FA;
+}
+
+/* Responsive nav styles - fix for mobile menu */
+@media (max-width: 768px) {
+  /* Mobile menu should stack */
+  .ast-header-break-point .main-header-bar .main-header-bar-navigation,
+  .ast-header-break-point .main-header-menu,
+  .ast-header-break-point .main-navigation ul {
+    display: block !important;
+    flex-direction: column !important;
+  }
+  
+  /* Mobile menu items should stack */
+  .ast-header-break-point .main-header-menu > .menu-item {
+    display: block !important;
+    width: 100% !important;
+  }
+  
+  /* Mobile toggles should show */
+  .ast-mobile-menu-buttons, 
+  .ast-button-wrap .menu-toggle,
+  .ast-button-wrap .ast-mobile-menu-buttons-minimal {
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  /* Ensure main menu is properly hidden behind toggle on mobile */
+  .ast-header-break-point .main-header-bar-navigation {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  /* Menu is visible when toggled on mobile */
+  .ast-header-break-point .main-header-bar-navigation.toggle-on {
+    height: auto;
+    overflow: visible;
+  }
+}

@@ -1,0 +1,345 @@
+{
+    "solutions_quick_links": [
+        {
+            "link_text": "Hospitality",
+            "link_anchor": "hospitality"
+        },
+        {
+            "link_text": "Vacation Rentals",
+            "link_anchor": "vacation-rentals"
+        },
+        {
+            "link_text": "Multifamily",
+            "link_anchor": "multifamily"
+        }
+    ],
+    "solutions_hero": {
+        "hero_title": "Smart Access Solutions for Every Industry",
+        "hero_intro": "From luxury hotels to vacation rentals and multifamily properties, Intelli locks provide seamless, secure access for any door, any time.",
+        "hero_background": {
+            "url": "/wp-content/uploads/2023/solutions-hero-background.jpg",
+            "alt": "Modern hotel hallway with Intelli smart locks installed on doors"
+        },
+        "hero_ctas": [
+            {
+                "cta_text": "Get a Custom Quote",
+                "cta_link": "/contact",
+                "cta_type": "primary"
+            },
+            {
+                "cta_text": "Compare Solutions",
+                "cta_link": "/locks#compare",
+                "cta_type": "secondary"
+            }
+        ]
+    },
+    "solutions_sections": [
+        {
+            "section_id": "hospitality",
+            "title": "Hospitality",
+            "subtitle": "Streamline Check-ins, Elevate Guest Experience",
+            "description": "Our smart access platform integrates with your PMS to create seamless arrivals and departures while enhancing security throughout your property.",
+            "image": {
+                "url": "/wp-content/uploads/2023/hospitality-solution.jpg",
+                "alt": "Hotel guest using smartphone to unlock door with IntelliLever"
+            },
+            "features": [
+                {
+                    "feature": "Mobile Key + PIN + RFID",
+                    "benefit": "Flexible access options for every guest preference",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/mobile-key.svg",
+                        "alt": "Mobile key icon"
+                    }
+                },
+                {
+                    "feature": "PMS Integration",
+                    "benefit": "Automated key creation when bookings arrive",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/pms-sync.svg",
+                        "alt": "PMS integration icon"
+                    }
+                },
+                {
+                    "feature": "Audit Trail",
+                    "benefit": "Complete access logs for security and dispute resolution",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/audit-trail.svg",
+                        "alt": "Audit trail icon"
+                    }
+                },
+                {
+                    "feature": "Enterprise Dashboard",
+                    "benefit": "Manage all properties from a single interface",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/dashboard.svg",
+                        "alt": "Dashboard icon"
+                    }
+                }
+            ],
+            "case_study": {
+                "type": "quote",
+                "content": "We reduced check-in time by 73% and improved our guest satisfaction scores within the first month of installation.",
+                "citation": "— Sarah M., General Manager, Oceanview Resort",
+                "image": {
+                    "url": "/wp-content/uploads/2023/oceanview-resort.jpg",
+                    "alt": "Oceanview Resort exterior with guests entering using smart locks"
+                }
+            },
+            "integrations": [
+                {
+                    "name": "Cloudbeds",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/cloudbeds-logo.svg",
+                        "alt": "Cloudbeds logo"
+                    }
+                },
+                {
+                    "name": "Opera",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/opera-logo.svg",
+                        "alt": "Opera logo"
+                    }
+                },
+                {
+                    "name": "Mews",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/mews-logo.svg",
+                        "alt": "Mews logo"
+                    }
+                },
+                {
+                    "name": "Zapier",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/zapier-logo.svg",
+                        "alt": "Zapier logo"
+                    }
+                }
+            ],
+            "cta": {
+                "text": "Schedule a Demo",
+                "link": "/contact?demo=true"
+            },
+            "background_color": "#f7f9fc"
+        },
+        {
+            "section_id": "vacation-rentals",
+            "title": "Vacation Rentals",
+            "subtitle": "Automate Check-ins From Anywhere",
+            "description": "Eliminate key handoffs and provide secure, self-service access for guests with automatic code generation and remote management.",
+            "image": {
+                "url": "/wp-content/uploads/2023/vacation-rental-solution.jpg",
+                "alt": "Vacation rental property with IntelliBolt smart lock installed"
+            },
+            "features": [
+                {
+                    "feature": "OTA Integration",
+                    "benefit": "Auto-sync with Airbnb and VRBO calendars",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/ota-sync.svg",
+                        "alt": "OTA integration icon"
+                    }
+                },
+                {
+                    "feature": "Remote Unlock",
+                    "benefit": "Help guests instantly from your smartphone",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/remote-unlock.svg",
+                        "alt": "Remote unlock icon"
+                    }
+                },
+                {
+                    "feature": "Offline Operation",
+                    "benefit": "Works even when internet connection drops",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/offline-mode.svg",
+                        "alt": "Offline mode icon"
+                    }
+                },
+                {
+                    "feature": "Long-life Battery",
+                    "benefit": "Up to 12 months between battery changes",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/battery-life.svg",
+                        "alt": "Battery life icon"
+                    }
+                }
+            ],
+            "case_study": {
+                "type": "roi",
+                "title": "ROI snapshot",
+                "content": "Property managers with 20+ units save an average of 140 hours annually on key management and guest issues.",
+                "image": {
+                    "url": "/wp-content/uploads/2023/roi-chart.jpg",
+                    "alt": "Chart showing ROI metrics for vacation rental properties"
+                }
+            },
+            "integrations": [
+                {
+                    "name": "Airbnb",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/airbnb-logo.svg",
+                        "alt": "Airbnb logo"
+                    }
+                },
+                {
+                    "name": "VRBO",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/vrbo-logo.svg",
+                        "alt": "VRBO logo"
+                    }
+                },
+                {
+                    "name": "HostAway",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/hostaway-logo.svg",
+                        "alt": "HostAway logo"
+                    }
+                }
+            ],
+            "cta": {
+                "text": "Get Your Custom Quote",
+                "link": "/contact"
+            },
+            "background_color": "#ffffff"
+        },
+        {
+            "section_id": "multifamily",
+            "title": "Multifamily",
+            "subtitle": "Smart Access for Modern Communities",
+            "description": "Enhance security, simplify resident turnover, and manage all access points from a centralized platform.",
+            "image": {
+                "url": "/wp-content/uploads/2023/multifamily-solution.jpg",
+                "alt": "Resident using IntelliReader to access apartment building"
+            },
+            "features": [
+                {
+                    "feature": "Multi-credential Support",
+                    "benefit": "Phone, fob, PIN, or biometric options",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/multi-credential.svg",
+                        "alt": "Multi-credential icon"
+                    }
+                },
+                {
+                    "feature": "Common Area Control",
+                    "benefit": "Manage gates, gyms, elevators, and amenities",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/common-areas.svg",
+                        "alt": "Common areas icon"
+                    }
+                },
+                {
+                    "feature": "User Management",
+                    "benefit": "Add or revoke access in seconds",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/user-management.svg",
+                        "alt": "User management icon"
+                    }
+                },
+                {
+                    "feature": "Visitor Access",
+                    "benefit": "Temporary codes for guests and service providers",
+                    "icon": {
+                        "url": "/wp-content/uploads/2023/icons/visitor-access.svg",
+                        "alt": "Visitor access icon"
+                    }
+                }
+            ],
+            "case_study": {
+                "type": "security",
+                "title": "Security Standards",
+                "content": "Enterprise-grade security with 256-bit encryption, SOC 2 compliance, and UL-listed hardware designed for maximum resident protection.",
+                "image": {
+                    "url": "/wp-content/uploads/2023/security-badge.jpg",
+                    "alt": "Security certification badges"
+                }
+            },
+            "integrations": [
+                {
+                    "name": "Yardi",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/yardi-logo.svg",
+                        "alt": "Yardi logo"
+                    }
+                },
+                {
+                    "name": "AppFolio",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/appfolio-logo.svg",
+                        "alt": "AppFolio logo"
+                    }
+                },
+                {
+                    "name": "RealPage",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/realpage-logo.svg",
+                        "alt": "RealPage logo"
+                    }
+                },
+                {
+                    "name": "ButterflyMX",
+                    "logo": {
+                        "url": "/wp-content/uploads/2023/partners/butterflymx-logo.svg",
+                        "alt": "ButterflyMX logo"
+                    }
+                }
+            ],
+            "cta": {
+                "text": "Request Pricing",
+                "link": "/contact?package=multifamily"
+            },
+            "background_color": "#f0f5fa"
+        }
+    ],
+    "solutions_implementation": {
+        "title": "Implementation at a Glance",
+        "steps": [
+            {
+                "title": "Scope",
+                "description": "Upload door list or book a virtual walk-through survey",
+                "icon": {
+                    "url": "/wp-content/uploads/2023/icons/scope-icon.svg",
+                    "alt": "Scope icon"
+                }
+            },
+            {
+                "title": "Ship",
+                "description": "Pre-configured locks arrive labeled per door location",
+                "icon": {
+                    "url": "/wp-content/uploads/2023/icons/ship-icon.svg",
+                    "alt": "Shipping icon"
+                }
+            },
+            {
+                "title": "Install",
+                "description": "DIY with video guides or use our certified installers",
+                "icon": {
+                    "url": "/wp-content/uploads/2023/icons/install-icon.svg",
+                    "alt": "Installation icon"
+                }
+            },
+            {
+                "title": "Connect",
+                "description": "Integrate with your existing management software",
+                "icon": {
+                    "url": "/wp-content/uploads/2023/icons/connect-icon.svg",
+                    "alt": "Connection icon"
+                }
+            }
+        ],
+        "image": {
+            "url": "/wp-content/uploads/2023/implementation-timeline.jpg",
+            "alt": "Visual timeline of implementation process"
+        }
+    },
+    "solutions_final_cta": {
+        "title": "Ready to modernize every door you manage?",
+        "button_text": "Talk to an Access-Control Specialist",
+        "button_link": "/contact",
+        "background": {
+            "url": "/wp-content/uploads/2023/final-cta-background.jpg",
+            "alt": "Modern building with Intelli locks installed"
+        }
+    }
+}
