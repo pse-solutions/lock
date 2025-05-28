@@ -1,0 +1,178 @@
+<h1>Creating Keys</h1>
+
+<p>Step 5 of the Getting Started Guide is to Create Keys. The TTLock platform supports various access methods.</p>
+
+<h2>Passcodes (PIN Codes)</h2>
+<p>Passcodes (aka PIN Codes) are a convenient and <strong>key-free way</strong> for different users to access a building. They are considered the <strong>most flexible credential</strong>, adapting well to any application, and <strong>do not require a medium</strong>, such as a card or device.</p>
+
+<h3>Passcode Types</h3>
+<ol>
+    <li><strong>Online codes</strong>
+        <ul>
+            <li>Includes: Custom.</li>
+            <li>Requires either a connection to a gateway or a direct Bluetooth connection to the lock.</li>
+            <li>They can be added, modified, or deleted in <strong>real-time remotely</strong>, or directly at the lock.</li>
+            <li>They can be <strong>customized to any 4 to 9 digit code</strong>.</li>
+            <li>Custom codes allow you to choose whether they work permanently or set a specific start and end time (accurate to the hour).</li>
+        </ul>
+    </li>
+    <li><strong>Offline codes</strong>
+        <ul>
+            <li>Includes: Timed, One-Time, Permanent, Recurring, Erase.</li>
+            <li>These are generated algorithmically and <strong>don't require a Bluetooth connection to the lock or a network gateway to generate</strong>.</li>
+            <li>They do require a Bluetooth connection to the lock to be modified or deleted.</li>
+            <li>They <strong>must be used within 24 hours</strong> (except one-time, which is 6 hours) or they will be suspended.</li>
+            <li>Offline codes are <strong>randomly generated</strong> and range from 6 to 9 digits in length.</li>
+            <li>Types include:
+                <ul>
+                    <li>Timed: Set specific start and end times (accurate to the hour).</li>
+                    <li>One-time: Valid for a single use only.</li>
+                    <li>Permanent: Remains valid indefinitely until deleted.</li>
+                    <li>Recurring: Choose a recurring cycle (daily, weekend, workday, specific day of the week) and set start/end times; only valid during the specified cycle.</li>
+                    <li>Erase: Generate this code to remove all codes from a lock; all existing codes are permanently erased once entered.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Steps to generate passcodes in mobile app</h3>
+<ol>
+    <li>Select a lock from the main menu, then tap "Passcodes", then tap "Generate Passcode".</li>
+    <li>Choose one of the Passcode types (Timed, Custom, etc.), and if applicable, specify the start and end times and assign a name, then tap "Generate".</li>
+</ol>
+<p>Once generated, the passcode can optionally be shared via email or SMS directly from the app using a pre-set template.</p>
+
+<h3>Steps to generate passcode in web system</h3>
+<ol>
+    <li>From the main lock menu, click the number pad icon on the lock you want to generate a passcode for.</li>
+    <li>Click the "+" button to select additional locks to add the passcode to, enter a "Name" and select one of the Passcode types. If applicable, specify the start and end times and assign a name, then click "OK".</li>
+</ol>
+<p>Once the passcode is generated, it can optionally be shared via email or SMS directly from the app using a pre-set template.</p>
+
+<h2>Remote Unlock (WiFi Open)</h2>
+<p>This feature allows users to <strong>unlock doors from any location, without needing to be near the lock</strong>. It requires the lock to be connected to a gateway. This function can be performed from anywhere, so it's a good idea to <strong>consider the security implications</strong> before proceeding. If you're using a third-party automation partner integrated with TTLock, remote unlock must be enabled.</p>
+
+<h3>Steps to turn on remote unlock</h3>
+<p>To enable remote unlock, it must be activated in the settings for each lock.</p>
+<ol>
+    <li>Determine if remote unlock is already on. If it is, you will see the words "Remote Unlock" in grey directly under the lock name, or you can see the blue network icon once a lock is selected.</li>
+    <li>If remote unlock is not already turned on, select the lock that you want to enable remote unlock, then tap on "Settings".</li>
+    <li>Tap on "Remote Unlock", then Tap the button to "Turn On".</li>
+</ol>
+
+<h3>Steps to remotely unlock from app</h3>
+<p>The lock must be connected to a gateway.</p>
+<ol>
+    <li>Select a lock from the main menu, and confirm remote unlock is on.</li>
+    <li>Tap on the small blue icon, then tap "Remote Unlock" when the confirmation prompt appears. The large blue lock icon is used for opening with eKeys and requires the user to be connected to the lock via Bluetooth.</li>
+    <li>If remote unlock is successful, you will see a confirmation window.</li>
+</ol>
+
+<h3>Steps to remotely unlock from web system</h3>
+<p>If Remote Unlock is already enabled for a lock, you will see a WiFi icon directly under the lock name.</p>
+<ol>
+    <li>Click on the lock you want to remotely unlock.</li>
+    <li>On the lock page, click on "Remote", then click on "Remote Unlock".</li>
+</ol>
+
+<h2>Cards (RFID Keys)</h2>
+<p>Cards (aka RFID keys) are a more traditional type of access method.</p>
+
+<h3>Adding cards</h3>
+<p>Cards can be added into the system using a lock or by using a card reader.</p>
+<p><strong>1. Add a card using a lock</strong></p>
+<ul>
+    <li>This requires being <strong>next to the hardware with Bluetooth enabled</strong> on your mobile device.</li>
+    <li>This process is done using the <strong>TTLock iOS or Android App only</strong>.</li>
+    <li>Any lock can be used to add a card into the system. Once added, it can be synced to the web system and assigned to other locks.</li>
+</ul>
+<h4>Steps to add a card using a lock</h4>
+<ol>
+    <li>From the home screen, select a lock.</li>
+    <li>Tap "Cards".</li>
+    <li>Choose if you want the card to be "Permanent", "Timed", or "Recurring". If "Timed" or "Recurring", set the validity period.</li>
+    <li>Assign a name and tap next.</li>
+    <li>The lock will ask you to present the card.</li>
+    <li><strong>Present the card against the front of the lock</strong>.</li>
+</ol>
+<h4>To program this card onto other locks after adding via a lock:</h4>
+<ol>
+    <li>Log into the TTLock Web Application.</li>
+    <li>Click "Issue Card".</li>
+    <li>Click "Sync Card" and the card you added to the lock will appear in the list.</li>
+    <li>Click "Issue" next to the card and then choose the locks that you want that card to be programmed to and click "OK".</li>
+</ol>
+<p><strong>2. Add a card using a card reader</strong></p>
+<ul>
+    <li>This is a <strong>TTLock Web Console only</strong> process.</li>
+    <li>The lock must be connected to a gateway.</li>
+    <li>The card encoder must be plugged into a computer logged into the TTLock Web Console.</li>
+</ul>
+<h4>Steps to add a card using a card reader</h4>
+<ol>
+    <li>From the home screen, click "Issue Card".</li>
+    <li>Choose "Issue Card" from the menu bar.</li>
+    <li>Select one or more locks you want the card to be programmed to.</li>
+    <li>Name the card.</li>
+    <li>Choose if you want the card to be "Permanent", "Timed", or "Recurring". If "Timed" or "Recurring", set the validity period.</li>
+    <li>Click "Read Card".</li>
+    <li><strong>Tap the card on the card reader</strong>.</li>
+</ol>
+<p>You can use the "Search" function by tapping the card against the card reader.</p>
+
+<h3>Delete a card</h3>
+<p>The lock must be connected to a gateway.</p>
+<ol>
+    <li>From the home screen, click "Issue Card".</li>
+    <li>Locate the card you wish to delete, then click "Door access".</li>
+    <li>Select the locks from which you want to remove access (select the top box to remove from all locks).</li>
+    <li>Click "Delete access", then "OK".</li>
+    <li>Confirm that access has been removed from each lock.</li>
+    <li>Click "OK" to complete.</li>
+</ol>
+
+<h2>eKeys (Digital Keys)</h2>
+<p>eKeys are digital keys.</p>
+
+<h3>eKey Types</h3>
+<ul>
+    <li><strong>Bluetooth eKeys</strong>: Use BLE technology which requires users to be in <strong>close proximity</strong> to the lock.</li>
+    <li><strong>Remote Unlock eKeys</strong>: Allow users to <strong>open door locks from their mobile device using the internet</strong>. Users can open doors from anywhere, provided their mobile device has internet connectivity.</li>
+</ul>
+<p>Types of eKeys include: Timed, One-Time, Permanent, or Recurring.</p>
+
+<h3>Adding eKeys</h3>
+<p>Once users are granted access to an eKey, they will be prompted to create a TTLock account and access the key from their mobile devices.</p>
+<p><strong>1. Steps to generate eKeys using app</strong></p>
+<ol>
+    <li>Select a lock from the main menu, then tap "eKeys", then tap "Send eKey".</li>
+    <li>Choose from Timed, One-Time, Permanent, or Recurring eKey types and enter the required information. At this step, you can choose whether to also grant the user a "Remote Unlocking" key.</li>
+</ol>
+<p>Once generated, the eKey can optionally be shared via email or directly from the app using a pre-set template.</p>
+<p><strong>2. Steps to generate eKeys using web system</strong></p>
+<ul>
+    <li>This is a <strong>paid feature</strong>.</li>
+</ul>
+<ol>
+    <li>Select a lock from the main menu, then tap "eKeys", then tap "Send eKey".</li>
+    <li>Choose from Timed, One-Time, Permanent, or Recurring eKey types and enter the required information and tap "OK". Here, you can also select whether to grant the user "Remote Unlock" and/or "Authorized Administrator" permissions to the lock.</li>
+</ol>
+<p>Tap "Send Email" to send the eKey to the recipient.</p>
+
+<h2>Fingerprints</h2>
+<p>Fingerprints are another access method.</p>
+
+<h3>Adding Fingerprints</h3>
+<ul>
+    <li>This requires being <strong>next to the hardware with Bluetooth enabled</strong> on your mobile device.</li>
+    <li>Fingerprints <strong>must be programmed at each individual lock</strong>.</li>
+</ul>
+<p>Types include: Timed, Permanent, or Recurring.</p>
+<h4>Steps to add fingerprints</h4>
+<ol>
+    <li>Select a lock from the main menu, then tap "Fingerprints", then tap "+ Add Fingerprint".</li>
+    <li>Choose from Timed, Permanent, or Recurring fingerprint types, enter the required information, and tap "Next".</li>
+    <li>Read the onscreen prompt, and tap "Start". <strong>Place your finger on the fingerprint sensor</strong> on your lock, and <strong>complete this 4 times as described by the audio commands</strong>.</li>
+    <li>Once complete, you will see your Fingerprint Key listed on the Fingerprints Page.</li>
+</ol>
