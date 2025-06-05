@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>33 Lock Help Centre</title>
+    <!-- Tailwind CSS CDN for quick responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* In‑page fuzzy search (very light) */
+      #searchInput:focus + svg {
+        @apply text-primary-600;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-800 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+      <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div class="text-xl font-semibold text-slate-900">33 Lock Help Centre</div>
+        <form class="relative w-full max-w-xs" onsubmit="event.preventDefault();">
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search articles…"
+            class="w-full pl-10 pr-3 py-2 rounded-lg border border-slate-300 focus:ring-2 focus:ring-primary-600 focus:outline-none"
+          />
+          <svg
+            class="w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+          </svg>
+        </form>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="max-w-5xl mx-auto px-4 py-8 space-y-10">
+      <!-- Intro -->
+      <section class="prose max-w-none">
+        <p class="text-lg">
+          Guides, checklists, and troubleshooting resources for your 33 Lock + TTLock system—from first‑time setup to advanced configuration.
+        </p>
+        <p class="text-sm">Need help fast? <a href="mailto:support@33lock.com" class="text-primary-600 font-medium">support@33lock.com</a></p>
+      </section>
+
+      <!-- Category Grid -->
+      <section id="categories" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" aria-live="polite"></section>
+    </main>
+
+    <!-- Simple data & renderer -->
+    <script>
+      const data = [
+        {
+          id: 'getting-started',
+          title: 'Getting Started',
+          count: 7,
+          desc: 'Step‑by‑step instructions to get your first locks and gateways online. Ideal for brand‑new users setting up accounts, hardware, and administrators.',
+          links: [
+            { t: 'TTLock Overview', h: '/help-centre/getting-started/ttlock-overview.html' },
+            { t: 'Checklist Summary', h: '/help-centre/getting-started/setup-summary.html' },
+            { t: 'Account Setup & Registration', h: '/help-centre/getting-started/account-setup.html' },
+            { t: 'Adding your First Lock', h: '/help-centre/getting-started/adding-locks.html' },
+            { t: 'Adding your First Gateway', h: '/help-centre/getting-started/gateway-setup-guide.html' },
+            { t: 'Creating Keys', h: '/help-centre/getting-started/key-access-guide.html' },
+            { t: 'Creating Administrators', h: '/help-centre/getting-started/creating-administrators.html' }
+          ]
+        },
+        {
+          id: 'manage-locks',
+          title: 'Manage Locks & Gateways',
+          count: 7,
+          desc: 'Add, transfer, or delete locks and gateways as your property evolves. Includes steps for updating admin permissions safely.',
+          links: [
+            { t: 'Adding Locks', h: '/help-centre/manage-locks-and-gateways/add-locks.html' },
+            { t: 'Transferring Locks', h: '/help-centre/manage-locks-and-gateways/transfer-locks.html' },
+            { t: 'Deleting Locks', h: '/help-centre/manage-locks-and-gateways/delete-locks.html' },
+            { t: 'Adding Gateways', h: '/help-centre/manage-locks-and-gateways/add-gateways.html' },
+            { t: 'Transferring Gateways', h: '/help-centre/manage-locks-and-gateways/transfer-gateways.html' },
+            { t: 'Deleting Gateways', h: '/help-centre/manage-locks-and-gateways/delete-gateways.html' },
+            { t: 'Adding Authorized Admins', h: '/help-centre/manage-locks-and-gateways/add-authorized-admins.html' }
+          ]
+        },
+        {
+          id: 'lock-settings',
+          title: 'Lock Settings',
+          count: 7,
+          desc: 'Customize lock behaviour—firmware, auto‑lock, passage mode, volume, and more—to match your operating procedures.',
+          links: [
+            { t: 'Updating Lock Firmware', h: '/help-centre/lock-settings/update-lock-firmware.html' },
+            { t: 'Unlock Status', h: '/help-centre/lock-settings/unlock-status.html' },
+            { t: 'Auto‑Lock Configuration', h: '/help-centre/lock-settings/auto-lock-configuration.html' },
+            { t: 'Remote Unlock', h: '/help-centre/lock-settings/remote-unlock.html' },
+            { t: 'Passage Mode', h: '/help-centre/lock-settings/passage-mode.html' },
+            { t: 'Calibrate Lock Time', h: '/help-centre/lock-settings/calibrate-lock-time.html' },
+            { t: 'Adjusting Lock Volume', h: '/help-centre/lock-settings/adjust-lock-volume.html' }
+          ]
+        },
+        {
+          id: 'gateway-settings',
+          title: 'Gateway Settings',
+          count: 6,
+          desc: 'Keep your gateways healthy and connected—mobile & web configuration, menu walkthroughs, and signal‑strength tips.',
+          links: [
+            { t: 'Gateway Settings Overview', h: '/help-centre/gateway-settings/overview.html' },
+            { t: 'Access Gateway Settings (Mobile)', h: '/help-centre/gateway-settings/mobile-access.html' },
+            { t: 'Gateway Menu (Mobile)', h: '/help-centre/gateway-settings/mobile-menu-overview.html' },
+            { t: 'Detailed Gateway View (Mobile)', h: '/help-centre/gateway-settings/mobile-detailed-view.html' },
+            { t: 'Gateway Connection Strength', h: '/help-centre/gateway-settings/connection-strength.html' },
+            { t: 'Access Gateway Settings (Web)', h: '/help-centre/gateway-settings/web-application-access.html' }
+          ]
+        },
+        {
+          id: 'access-keys',
+          title: 'Access Keys',
+          count: 5,
+          desc: 'Issue and manage every credential type—PINs, RFID cards, mobile eKeys, fingerprints, and one‑tap Wi‑Fi unlock.',
+          links: [
+            { t: 'Passcodes (PIN Codes)', h: '/help-centre/access-keys/pin-codes.html' },
+            { t: 'Remote Unlock (WiFi Open)', h: '/help-centre/access-keys/remote-unlock.html' },
+            { t: 'Cards (RFID)', h: '/help-centre/access-keys/rfid-cards.html' },
+            { t: 'Digital Keys (eKeys)', h: '/help-centre/access-keys/digital-keys.html' },
+            { t: 'Fingerprints', h: '/help-centre/access-keys/fingerprints.html' }
+          ]
+        },
+        {
+          id: 'troubleshooting',
+          title: 'Troubleshooting & Maintenance',
+          count: 5,
+          desc: 'Quick resolutions for common issues like power loss, connectivity drops, and emergency unlocks—plus preventive maintenance.',
+          links: [
+            { t: 'Gateway Loses Internet Connection', h: '/help-centre/trouble-shooting/gateway-loses-internet-connection.html' },
+            { t: 'Lock Power Issues', h: '/help-centre/trouble-shooting/lock-power-issues.html' },
+            { t: 'Initial Lock & Gateway Connection Issues', h: '/help-centre/trouble-shooting/lock-and-gateway-connection-issues.html' },
+            { t: 'Lock Battery Replacement', h: '/help-centre/trouble-shooting/change-lock-batteries.html' },
+            { t: 'Using Backup Power', h: '/help-centre/trouble-shooting/using-backup-power.html' }
+          ]
+        },
+        {
+          id: 'install-guides',
+          title: 'Installation Guides & Materials',
+          count: 10,
+          desc: 'Downloadable manuals, CAD templates, and checklists for every lock model and cover plate—perfect for installers and fabricators.',
+          links: [
+            { t: 'IntelliMortise Manual', h: '/assets/pdf/IntelliMortise-Manual.pdf' },
+            { t: 'IntelliLever Manual', h: '/assets/pdf/IntelliLever-Manual.pdf' },
+            { t: 'IntelliLever 2 Manual', h: '/assets/pdf/IntelliMortise-Manual.pdf' },
+            { t: 'IntelliBolt 2 Manual', h: '/assets/pdf/IntelliBolt-Manual.pdf' },
+            { t: 'IntelliReader Manual', h: '/assets/pdf/IntelliReader-Manual.pdf' },
+            { t: 'Standard Cover Plate (in)', h: '/assets/pdf/Standard-Cover-Plate-inches.pdf' },
+            { t: 'Standard Cover Plate (mm)', h: '/assets/pdf/Standard-Cover-Plate-mm.pdf' },
+            { t: 'XL Cover Plate (in)', h: '/assets/pdf/XL-Cover-Plate-inches.pdf' },
+            { t: 'XL Cover Plate (mm)', h: '/assets/pdf/XL-Cover-Plate-mm.pdf' },
+            { t: 'Lock Installation Checklist', h: '/assets/pdf/Lock-Installation-Checklist.pdf' }
+          ]
+        },
+        {
+          id: 'faq',
+          title: 'Frequently Asked Questions',
+          count: 5,
+          desc: 'Top answers about gateway range, internet outages, firmware updates, emergency power, and more—updated regularly.',
+          links: [
+            { t: 'Gateway Placement Distance', h: '#faq-distance' },
+            { t: 'Locks During Internet Outage', h: '#faq-outage' },
+            { t: 'Gateway Power Loss', h: '#faq-gateway-power' },
+            { t: 'Firmware Update Frequency', h: '#faq-firmware' },
+            { t: 'Emergency Power Procedures', h: '#faq-dead-lock' }
+          ]
+        }
+      ];
+
+      // Render categories
+      const catWrap = document.getElementById('categories');
+      const createCard = (cat) => {
+        const outer = document.createElement('article');
+        outer.className = 'bg-white border border-slate-200 rounded-xl shadow-sm flex flex-col';
+        outer.innerHTML = `
+          <header class="p-5 flex-1">
+            <h2 class="text-lg font-semibold text-slate-900 flex items-center justify-between">
+              <span>${cat.title}</span>
+              <span class="ml-2 inline-flex items-center justify-center text-xs font-medium bg-primary-600/10 text-primary-700 rounded-full px-2 py-0.5">${
+                cat.count
+              }</span>
+            </h2>
+            <p class="mt-2 text-sm leading-snug text-slate-600">${cat.desc}</p>
+          </header>
+          <details class="border-t border-slate-200">
+            <summary class="cursor-pointer px-5 py-3 text-sm font-medium text-primary-700 select-none">View articles</summary>
+            <ul class="px-5 pb-5 pt-2 space-y-2 text-sm">
+              ${cat.links.map((l) => `<li><a class="text-primary-600 hover:underline" href="${l.h}">${l.t}</a></li>`).join('')}
+            </ul>
+          </details>`;
+        return outer;
+      };
+
+      const render = (query = '') => {
+        catWrap.innerHTML = '';
+        const q = query.trim().toLowerCase();
+        data.forEach((cat) => {
+          // If query exists, filter by title or links
+          if (q) {
+            const inCat = cat.title.toLowerCase().includes(q) || cat.links.some((l) => l.t.toLowerCase().includes(q));
+            if (!inCat) return;
+          }
+          catWrap.appendChild(createCard(cat));
+        });
+        if (!catWrap.children.length) {
+          catWrap.innerHTML = '<p class="col-span-full text-center text-slate-500">No results found.</p>';
+        }
+      };
+
+      render();
+
+      document.getElementById('searchInput').addEventListener('input', (e) => {
+        render(e.target.value);
+      });
+    </script>
+  </body>
+</html>
