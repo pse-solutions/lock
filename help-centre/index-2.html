@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>33 Lock Help Centre - Index</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Custom styles for accordion-like FAQ items if needed, but Tailwind can handle most */
+      .faq-question::after {
+        content: '+'; /* Simple indicator, can be replaced with SVG */
+        float: right;
+        transition: transform 0.2s;
+      }
+      details[open] .faq-question::after {
+        transform: rotate(45deg);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-sky-600 to-cyan-500 text-white py-12 sm:py-16 shadow-lg">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-4xl sm:text-5xl font-bold">33 Lock Help Centre</h1>
+        <p class="mt-4 text-lg sm:text-xl text-sky-100">
+          Your comprehensive guide to the 33 Lock + TTLock system. Find setup instructions, troubleshooting tips, and more.
+        </p>
+      </div>
+    </header>
+
+    <!-- Quick Support & Search Section -->
+    <section class="py-8 bg-white shadow-sm">
+      <div class="container mx-auto px-6 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+        <div class="w-full sm:w-1/2 lg:w-2/3">
+          <!-- Visual Search Bar Placeholder -->
+          <div class="relative">
+            <input
+              type="search"
+              placeholder="Search articles (e.g., 'add new lock')"
+              class="w-full p-4 pr-10 text-gray-700 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+            />
+            <svg
+              class="w-5 h-5 text-gray-400 absolute top-1/2 right-4 transform -translate-y-1/2"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+        </div>
+        <div class="bg-sky-100 border-l-4 border-sky-500 text-sky-700 p-4 rounded-md shadow hover:shadow-lg transition-shadow duration-300">
+          <h4 class="font-semibold">Need help fast?</h4>
+          <p>Email us at: <a href="mailto:support@33lock.com" class="text-sky-600 hover:text-sky-800 font-medium underline">support@33lock.com</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-6 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Category: Getting Started -->
+        <section class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <h2 class="text-2xl font-semibold mb-6 text-sky-700 border-b-2 border-sky-200 pb-2">Getting Started</h2>
+          <ul class="space-y-3">
+            <li>
+              <a href="/help-centre/getting-started/ttlock-overview.html" class="text-gray-700 hover:text-sky-600 hover:underline">TTLock Overview</a>
+            </li>
+            <li>
+              <a href="/help-centre/getting-started/setup-summary.html" class="text-gray-700 hover:text-sky-600 hover:underline">Checklist Summary</a>
+            </li>
+            <li>
+              <a href="/help-centre/getting-started/account-setup.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Account Setup & Registration</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/getting-started/adding-locks.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Adding your First Lock</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/getting-started/gateway-setup-guide.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Adding your First Gateway</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/getting-started/key-access-guide.html" class="text-gray-700 hover:text-sky-600 hover:underline">Creating Keys</a>
+            </li>
+            <li>
+              <a href="/help-centre/getting-started/creating-administrators.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Creating Administrators</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <!-- Category: Manage Locks, Gateways & Admins -->
+        <section class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <h2 class="text-2xl font-semibold mb-6 text-sky-700 border-b-2 border-sky-200 pb-2">Manage Locks, Gateways & Admins</h2>
+          <ul class="space-y-3">
+            <li>
+              <a href="/help-centre/manage-locks-and-gateways/add-locks.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Adding Locks</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/manage-locks-and-gateways/transfer-locks.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Transferring Locks</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/manage-locks-and-gateways/delete-locks.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Deleting Locks</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/manage-locks-and-gateways/add-gateways.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Adding Gateways</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/manage-locks-and-gateways/transfer-gateways.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Transferring Gateways</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/manage-locks-and-gateways/delete-gateways.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Deleting Gateways</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/manage-locks-and-gateways/add-authorized-admins.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Adding Authorized Admins</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <!-- Category: Lock Settings -->
+        <section class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <h2 class="text-2xl font-semibold mb-6 text-sky-700 border-b-2 border-sky-200 pb-2">Lock Settings</h2>
+          <ul class="space-y-3">
+            <li>
+              <a href="/help-centre/lock-settings/update-lock-firmware.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Updating Lock Firmware</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/lock-settings/unlock-status.html" class="text-gray-700 hover:text-sky-600 hover:underline">Unlock Status</a>
+            </li>
+            <li>
+              <a href="/help-centre/lock-settings/auto-lock-configuration.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Auto-Lock Configuration</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/lock-settings/remote-unlock.html" class="text-gray-700 hover:text-sky-600 hover:underline">Remote Unlock</a>
+            </li>
+            <li><a href="/help-centre/lock-settings/passage-mode.html" class="text-gray-700 hover:text-sky-600 hover:underline">Passage Mode</a></li>
+            <li>
+              <a href="/help-centre/lock-settings/calibrate-lock-time.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Calibrate Lock Time</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/lock-settings/adjust-lock-volume.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Adjusting Lock Volume</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <!-- Category: Gateway Settings -->
+        <section class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <h2 class="text-2xl font-semibold mb-6 text-sky-700 border-b-2 border-sky-200 pb-2">Gateway Settings</h2>
+          <ul class="space-y-3">
+            <!-- Corrected paths from backslashes to forward slashes -->
+            <li>
+              <a href="/help-centre/gateway-settings/overview.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Gateway Settings Overview</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/gateway-settings/mobile-access.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Access Gateway settings (mobile app)</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/gateway-settings/mobile-menu-overview.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Gateway Menu (mobile app)</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/gateway-settings/mobile-detailed-view.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Detailed Gateway view (mobile app)</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/gateway-settings/connection-strength.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Gateway connection strength</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/gateway-settings/web-application-access.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Access Gateway settings (web app)</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <!-- Category: Access Methods -->
+        <section class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <h2 class="text-2xl font-semibold mb-6 text-sky-700 border-b-2 border-sky-200 pb-2">Access Methods</h2>
+          <ul class="space-y-3">
+            <li>
+              <a href="/help-centre/access-keys/pin-codes.html" class="text-gray-700 hover:text-sky-600 hover:underline">Passcodes (PIN Codes)</a>
+            </li>
+            <li>
+              <a href="/help-centre/access-keys/remote-unlock.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Remote Unlock (WiFi Open)</a
+              >
+            </li>
+            <li><a href="/help-centre/access-keys/rfid-cards.html" class="text-gray-700 hover:text-sky-600 hover:underline">Cards (RFID Key)</a></li>
+            <li>
+              <a href="/help-centre/access-keys/digital-keys.html" class="text-gray-700 hover:text-sky-600 hover:underline">Digital Keys (eKeys)</a>
+            </li>
+            <li><a href="/help-centre/access-keys/fingerprints.html" class="text-gray-700 hover:text-sky-600 hover:underline">Fingerprints</a></li>
+          </ul>
+        </section>
+
+        <!-- Category: Troubleshooting & Maintenance -->
+        <section class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <h2 class="text-2xl font-semibold mb-6 text-sky-700 border-b-2 border-sky-200 pb-2">Troubleshooting & Maintenance</h2>
+          <ul class="space-y-3">
+            <li>
+              <a href="/help-centre/trouble-shooting/gateway-loses-internet-connection.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Gateway Loses Internet Connection</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/trouble-shooting/lock-power-issues.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Lock Power Issues</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/trouble-shooting/lock-and-gateway-connection-issues.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Initial Lock and Gateway Connection Issues</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/trouble-shooting/change-lock-batteries.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Lock Battery Replacement</a
+              >
+            </li>
+            <li>
+              <a href="/help-centre/trouble-shooting/using-backup-power.html" class="text-gray-700 hover:text-sky-600 hover:underline"
+                >Using Backup Power</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Installation Guides and Materials Section -->
+      <section class="mt-12 bg-white p-6 sm:p-8 rounded-xl shadow-lg">
+        <h2 class="text-3xl font-semibold mb-6 text-center text-sky-700 border-b-2 border-sky-200 pb-3">Installation Guides & Materials</h2>
+        <ul class="space-y-3 columns-1 sm:columns-2 lg:columns-3">
+          <!-- Corrected links and added link text where it was missing -->
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/IntelliMortise-Manual.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >IntelliMortise Manual (PDF)</a
+            >
+          </li>
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/IntelliLever-Manual.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >IntelliLever Manual (PDF)</a
+            >
+          </li>
+          <!-- Assuming PDF filenames for items that were malformed in original HTML -->
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/IntelliLever-2-Manual.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >IntelliLever 2 Manual (PDF)</a
+            >
+          </li>
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/IntelliBolt-2-Manual.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >IntelliBolt 2 Manual (PDF)</a
+            >
+          </li>
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/IntelliReader-Manual.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >IntelliReader Manual (PDF)</a
+            >
+          </li>
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/Standard-Cover-Plate-inches.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Standard Cover Plate (inches) (PDF)</a
+            >
+          </li>
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/Standard-Cover-Plate-mm.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Standard Cover Plate (mm) (PDF)</a
+            >
+          </li>
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/XL-Cover-Plate-inches.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >XL Cover Plate (inches) (PDF)</a
+            >
+          </li>
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/XL-Cover-Plate-mm.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >XL Cover Plate (mm) (PDF)</a
+            >
+          </li>
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href="/assets/pdf/Lock-Installation-Checklist.pdf"
+              class="text-gray-700 hover:text-sky-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Lock Installation Checklist (PDF)</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- Frequently Asked Questions Section -->
+      <section class="mt-12 bg-white p-6 sm:p-8 rounded-xl shadow-lg">
+        <h2 class="text-3xl font-semibold mb-8 text-center text-sky-700 border-b-2 border-sky-200 pb-3">Frequently Asked Questions</h2>
+        <div class="space-y-6">
+          <!-- FAQ Item 1 -->
+          <details class="group bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <summary class="faq-question font-semibold text-lg text-gray-700 cursor-pointer list-none flex justify-between items-center">
+              How far should I install my TTLock gateways from my 33 Locks?
+              <span class="text-sky-500 transform transition-transform duration-200 group-open:rotate-45">+</span>
+            </summary>
+            <div class="mt-3 text-gray-600 space-y-2">
+              <p>
+                Gateways should generally be installed as close to locks as possible. The recommended maximum range of a gateway is 20-30 feet, but
+                could be impacted by obstructions between the gateway and lock.
+              </p>
+              <p>Additional TTLock gateways can always be added after installation.</p>
+            </div>
+          </details>
+
+          <!-- FAQ Item 2 -->
+          <details class="group bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <summary class="faq-question font-semibold text-lg text-gray-700 cursor-pointer list-none flex justify-between items-center">
+              What happens to my 33 Locks during an internet outage?
+              <span class="text-sky-500 transform transition-transform duration-200 group-open:rotate-45">+</span>
+            </summary>
+            <div class="mt-3 text-gray-600 space-y-2">
+              <p>
+                Your 33 Locks will continue to operate with all previously installed credentials (PINs, cards, etc.). Already installed credentials
+                will become active and deactivate according to their defined schedule.
+              </p>
+              <p>
+                New credentials cannot be added or deleted remotely during the outage and must be added directly at the lock, or generated offline.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ Item 3 -->
+          <details class="group bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <summary class="faq-question font-semibold text-lg text-gray-700 cursor-pointer list-none flex justify-between items-center">
+              What happens to my 33 Locks if a gateway loses internet connectivity or power?
+              <span class="text-sky-500 transform transition-transform duration-200 group-open:rotate-45">+</span>
+            </summary>
+            <div class="mt-3 text-gray-600">
+              <p>
+                TTLock gateways create a many-to-many (M2M) mesh network, which means if any one gateway loses power or connectivity, your 33 Lock
+                will attempt to connect to the next closest gateway.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ Item 4 -->
+          <details class="group bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <summary class="faq-question font-semibold text-lg text-gray-700 cursor-pointer list-none flex justify-between items-center">
+              How often do I need to update firmware on my locks?
+              <span class="text-sky-500 transform transition-transform duration-200 group-open:rotate-45">+</span>
+            </summary>
+            <div class="mt-3 text-gray-600">
+              <p>
+                Firmware updates are infrequent, and can occur approximately 2 times a year. While 33 Lock encourages all users to update firmware
+                when available, updates are most often optional, and may not be required to install immediately. See Lock Firmware Instructions
+                <a href="/help-centre/lock-settings/update-lock-firmware.html" class="text-sky-600 hover:underline">here</a>.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ Item 5 -->
+          <details class="group bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <summary class="faq-question font-semibold text-lg text-gray-700 cursor-pointer list-none flex justify-between items-center">
+              What to do if my 33 Lock dies suddenly?
+              <span class="text-sky-500 transform transition-transform duration-200 group-open:rotate-45">+</span>
+            </summary>
+            <div class="mt-3 text-gray-600">
+              <ol class="list-decimal list-inside space-y-2">
+                <li>
+                  Plug a power bank into the bottom of the lock to attempt to provide power.
+                  <ul class="list-disc list-inside ml-4 mt-1">
+                    <li>If this works, it's likely that the batteries are dead. Replace asap.</li>
+                  </ul>
+                </li>
+                <li>If the lock still doesn't power up, use a metal key to access the unit.</li>
+                <li>Remove the battery cover and inspect the battery terminals for corrosion or other obvious damage.</li>
+                <li>If the terminals look okay, replace them with brand new batteries to see if this resolves the issue.</li>
+                <li>
+                  If the lock still doesn't power up, remove the lock from the door and inspect the cable connecting the front and back of the lock.
+                  <ul class="list-disc list-inside ml-4 mt-1">
+                    <li>Confirm that the two ends are securely connected.</li>
+                    <li>Confirm there is no damage to the cable.</li>
+                  </ul>
+                </li>
+                <li>
+                  If there are no signs of connection issues or damage, replace the lock with one from your attic stock.
+                  <ul class="list-disc list-inside ml-4 mt-1">
+                    <li>It's okay to keep the mortise chassis in the door and just replace the front and back.</li>
+                  </ul>
+                </li>
+                <li>
+                  Add the new lock on to the TTLock app.
+                  <ul class="list-disc list-inside ml-4 mt-1">
+                    <li>If using an access automation partner, contact them asap to onboard the new lock.</li>
+                  </ul>
+                </li>
+                <li>
+                  Contact your installer and <a href="mailto:support@33lock.com" class="text-sky-600 hover:underline">support@33lock.com</a> to create
+                  a warranty claim.
+                </li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
+      <div class="container mx-auto px-6 text-center">
+        <p>&copy; <span id="currentYear"></span> 33 Lock. All rights reserved.</p>
+        <p class="text-sm mt-1">Proudly supporting your security needs.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Set current year in footer
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+      // Simple FAQ accordion toggle - Tailwind's group-open handles most of this with <details> and <summary>
+      // This script is mainly for the +/- icon if not using <details>/<summary> or for more complex animations.
+      // With <details> and <summary>, this specific JS for toggling might not be strictly necessary,
+      // but the class toggling for the icon is good.
+      const detailsElements = document.querySelectorAll('details');
+      detailsElements.forEach((details) => {
+        const summary = details.querySelector('summary');
+        // The visual '+' or 'rotate' is handled by CSS :after or Tailwind group-open utilities.
+        // No extra JS needed for the open/close state itself due to <details> element behavior.
+      });
+    </script>
+  </body>
+</html>
